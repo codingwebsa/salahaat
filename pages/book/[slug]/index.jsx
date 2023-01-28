@@ -147,10 +147,10 @@ export default BookPage;
 
 export const getStaticPaths = async () => {
   const data = await getData();
+  let paths = data.map((d) => ({ params: { slug: d.attributes.slug } }));
+  console.log(paths);
   return {
-    paths: data.map((d) => ({
-      params: { slug: d.attributes.slug },
-    })),
+    paths: paths,
     fallback: false,
   };
 };

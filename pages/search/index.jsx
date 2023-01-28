@@ -27,8 +27,6 @@ const Search = ({ BookData }) => {
   const fuseData = fuse.search(query || "");
   fuseData.forEach((data, _i) => modifiedData.push(BookData[_i]));
 
-  console.log(modifiedData);
-
   return (
     <>
       <Head>
