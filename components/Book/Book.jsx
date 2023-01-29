@@ -14,10 +14,10 @@ const Book = ({ data }) => {
           {/* image */}
           <Image
             src={imgurl}
-            width={256}
-            height={81}
+            width={480}
+            height={300}
             alt={name}
-            className="rounded-md mb-2 hover:brightness-90 h-48 object-cover"
+            className="rounded-md mb-2 hover:brightness-90 h-60 object-cover"
           />
           {/* name */}
           <h2 className="font-hindSiliguri text-md font-semibold">{name}</h2>

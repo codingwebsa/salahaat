@@ -1,12 +1,19 @@
 // component
-import { BottomNavbar, SearchComponent } from ".";
+import { Footer, Navbar, SimpleHeader } from ".";
 
-const Layout = ({ children }) => {
+const Layout = ({
+  header = true,
+  simpleHeader = false,
+  footer = true,
+  children,
+}) => {
   return (
     <>
       <div className="pb-8">
+        {simpleHeader && <SimpleHeader />}
         <div>{children}</div>
-        <BottomNavbar />
+        {header && <Navbar />}
+        {footer && <Footer />}
       </div>
     </>
   );

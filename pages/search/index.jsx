@@ -2,7 +2,7 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 // components
-import { Booksec, BottomNavbar, SearchComponent } from "@/components";
+import { Booksec, BottomNavbar, Layout, SearchComponent } from "@/components";
 // fuse.js
 import Fuse from "fuse.js";
 // @lib
@@ -33,16 +33,17 @@ const Search = ({ BookData }) => {
         <title>Search</title>
       </Head>
       <div>
-        <BottomNavbar />
-        <SearchComponent />
-        <Booksec data={modifiedData} />
-        {/* conditions */}
-        {!query && (
-          <h1 className="text-xl text-center">Please search something!</h1>
-        )}
-        {query && modifiedData.length == 0 ? (
-          <h1 className="text-xl text-center">No Matching Result!</h1>
-        ) : null}
+        <Layout footer={false}>
+          <SearchComponent />
+          <Booksec data={modifiedData} />
+          {/* conditions */}
+          {!query && (
+            <h1 className="text-xl text-center">Please search something!</h1>
+          )}
+          {query && modifiedData.length == 0 ? (
+            <h1 className="text-xl text-center">No Matching Result!</h1>
+          ) : null}
+        </Layout>
       </div>
     </>
   );
