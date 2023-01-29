@@ -42,7 +42,7 @@ const BookPage = ({ data }) => {
   return (
     <>
       <Head>
-        <title>{name}</title>
+        <title>{name} - Salahaat</title>
       </Head>
       <Layout header={false} simpleHeader={true}>
         <SearchComponent />
@@ -78,10 +78,10 @@ const BookPage = ({ data }) => {
               <span className="flex gap-2">
                 <p>বিষয় :</p>
                 <Link
-                  href={`/categories/${categories[0].attributes.slug}`}
+                  href={`/category/${categories[0].attributes.slug}`}
                   className="text-yellow-700"
                 >
-                  {categories[0].attributes.slug}
+                  {categories[0].attributes.name}
                 </Link>
               </span>
             </div>
