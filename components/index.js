@@ -1,7 +1,9 @@
 import Layout from "./Layout";
 import BottomNavbar from "./Navbar/BottomNav";
 import Navbar from "./Navbar/Navbar";
+import Header from "./Navbar/Header";
 import SimpleHeader from "./Navbar/SimpleHeader";
+import Sidebar from "./Navbar/Sidebar";
 import SearchComponent from "./Search/SearchComponent";
 import CarouselCom from "./Carousel/Carousel";
 import Booksec from "./Book/Booksec";
@@ -16,6 +18,8 @@ export {
   Layout,
   BottomNavbar,
   SimpleHeader,
+  Header,
+  Sidebar,
   Navbar,
   SearchComponent,
   CarouselCom,

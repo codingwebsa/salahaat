@@ -4,7 +4,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -16,10 +15,12 @@ module.exports = {
         secondary: "#6748BC",
         light: "#E8F3F1",
         dark: "#252c33",
+        logoColor: "#43c378",
       },
       fontFamily: {
         hindSiliguri: ["Hind Siliguri"],
         nunito: ["Nunito"],
+        branches: ["branches"],
       },
     },
   },

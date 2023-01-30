@@ -11,7 +11,7 @@ const HomePage = ({ data }) => {
       <Head>
         <title>Salahaat</title>
       </Head>
-      <Layout header={false}>
+      <Layout navbar={false}>
         <SearchComponent />
         <CarouselCom />
         <Booksec title="Recent" data={data?.slice(0, 6)} />
