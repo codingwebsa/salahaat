@@ -1,9 +1,8 @@
 // nextjs
 import Image from "next/image";
+import localFont from "@next/font/local";
 // assets
 import Logo from "@/assets/logo.jpg";
-// nextjs
-import localFont from "@next/font/local";
 // icons
 import { MenuIcon } from "@/icons";
 // context

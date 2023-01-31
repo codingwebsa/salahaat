@@ -2,30 +2,35 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 // components
-import { Booksec, BottomNavbar, Layout, SearchComponent } from "@/components";
+import { Booksec, Layout, SearchComponent } from "@/components";
 // fuse.js
 import Fuse from "fuse.js";
 // @lib
 import { getData } from "@/lib";
+import { useEffect, useState } from "react";
 
 const Search = ({ BookData }) => {
+  const [modifiedData, setmodifiedData] = useState([]);
   //   console.log(BookData);
-  const modifiedData = [];
   const router = useRouter();
   const query = router.query.q;
 
   const fuse = new Fuse(BookData, {
     keys: [
       "attributes.name",
-      "attributes.slug",
       "attributes.authors.data.attributes.name",
-      "attributes.authors.data.attributes.slug",
+      "attributes.tags",
     ],
     includeScore: true,
   });
 
-  const fuseData = fuse.search(query || "");
-  fuseData.forEach((data, _i) => modifiedData.push(BookData[_i]));
+  useEffect(() => {
+    let tempModifiedData = [];
+    const fuseData = fuse.search(query || "");
+    fuseData.forEach((data, _i) => tempModifiedData.push(BookData[_i]));
+    setmodifiedData(tempModifiedData);
+    console.log(modifiedData);
+  }, [query]);
 
   return (
     <>
@@ -35,7 +40,7 @@ const Search = ({ BookData }) => {
       <div>
         <Layout footer={false}>
           <SearchComponent />
-          <Booksec data={modifiedData} />
+          {/* <Booksec data={modifiedData} /> */}
           {/* conditions */}
           {!query && (
             <h1 className="text-xl text-center">Please search something!</h1>
