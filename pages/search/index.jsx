@@ -27,9 +27,10 @@ const Search = ({ BookData }) => {
   useEffect(() => {
     let tempModifiedData = [];
     const fuseData = fuse.search(query || "");
-    fuseData.forEach((data, _i) => tempModifiedData.push(BookData[_i]));
+    fuseData.forEach((data, _i) =>
+      tempModifiedData.push(BookData[data.refIndex])
+    );
     setmodifiedData(tempModifiedData);
-    console.log(modifiedData);
   }, [query]);
 
   return (
@@ -40,7 +41,7 @@ const Search = ({ BookData }) => {
       <div>
         <Layout footer={false}>
           <SearchComponent />
-          {/* <Booksec data={modifiedData} /> */}
+          <Booksec data={modifiedData} />
           {/* conditions */}
           {!query && (
             <h1 className="text-xl text-center">Please search something!</h1>

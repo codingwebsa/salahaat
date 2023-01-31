@@ -13,7 +13,21 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Nunito&display=swap"
           rel="stylesheet"
         />
-        {/* local links */}
+        {/* PWA */}
+        <meta name="application-name" content="Salahaat" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Salahaat" />
+        <meta name="description" content="" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#E8F3F1" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#E8F3F1" />
+        {/* manifest */}
+        <link rel="manifest" href="/manifest.json"></link>
+        {/* genarated */}
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -83,11 +97,8 @@ export default function Document() {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       </Head>
-      <body className="text-dark">
+      <body className="bg-slate-100 text-dark">
         <Main />
         <NextScript />
       </body>

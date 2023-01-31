@@ -41,16 +41,44 @@ const CarouselCom = () => {
           autoPlaySpeed={5000}
         >
           <div className="mx-1 rounded-md overflow-hidden cursor-grab active:cursor-grabbing">
-            <Image alt="banner1" src={Banner1} property={true} />
+            <Image
+              alt="banner1"
+              src={Banner1}
+              width={960}
+              height={480}
+              quality={70}
+              property={true}
+            />
           </div>
           <div className="mx-1 rounded-md overflow-hidden cursor-grab active:cursor-grabbing">
-            <Image alt="banner2" src={Banner2} property={true} />
+            <Image
+              alt="banner2"
+              src={Banner2}
+              width={960}
+              height={480}
+              quality={70}
+              property={true}
+            />
           </div>
           <div className="mx-1 rounded-md overflow-hidden cursor-grab active:cursor-grabbing">
-            <Image alt="banner3" src={Banner3} property={true} />
+            <Image
+              alt="banner3"
+              src={Banner3}
+              width={960}
+              height={480}
+              quality={70}
+              property={true}
+            />
           </div>
           <div className="mx-1 rounded-md overflow-hidden cursor-grab active:cursor-grabbing">
-            <Image alt="banner4" src={Banner4} property={true} />
+            <Image
+              alt="banner4"
+              src={Banner4}
+              width={960}
+              height={480}
+              quality={70}
+              property={true}
+            />
           </div>
         </Carousel>
       </div>
