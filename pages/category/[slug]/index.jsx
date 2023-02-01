@@ -11,7 +11,6 @@ const CategorySingle = ({ name, data }) => {
         <title>{`বিষয়: ${name}`}</title>
       </Head>
       <SearchComponent />
-      <BottomNavbar />
       <Booksec title={`বিষয়: ${name}`} data={data} />
     </>
   );

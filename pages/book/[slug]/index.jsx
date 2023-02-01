@@ -1,6 +1,7 @@
 // next
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 // react
 import { useState } from "react";
 // react-hot-toast
@@ -8,13 +9,13 @@ import { toast } from "react-hot-toast";
 // context
 import { useGlobalContext } from "@/context/globalContext";
 // components
-import { Layout, QuickCart, SearchComponent } from "@/components";
+import { Booksec, Layout, QuickCart, SearchComponent } from "@/components";
+// lib
 import { getData } from "@/lib";
-import Head from "next/head";
 
 // symble
 const Symble = () => <span>৳</span>;
-const BookPage = ({ data }) => {
+const BookPage = ({ data, recentBooks }) => {
   const [readMore, setReadMore] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   //   initializing data
@@ -132,7 +133,7 @@ const BookPage = ({ data }) => {
             </div>
           </div>
         </div>
-        {/* <Booksec data={recentBooksData} title="আরো দেখুন…" /> */}
+        <Booksec data={recentBooks} title="আরো দেখুন…" />
       </Layout>
       <QuickCart
         isOpen={isOpen}
@@ -164,6 +165,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       data: bookData.attributes,
+      recentBooks: data.slice(0, 8),
     },
   };
 };
