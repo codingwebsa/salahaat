@@ -13,7 +13,7 @@ const Account = () => {
         <title>{`Account ${user ? `- ${user.displayName}` : ""}`}</title>
       </Head>
       <Layout>
-        <div className="h-screen flex items-center justify-center">
+        <div className="h-[90vh] flex items-center justify-center">
           {user ? <SignoutComponent user={user} /> : <SigninPageComponent />}
         </div>
       </Layout>
