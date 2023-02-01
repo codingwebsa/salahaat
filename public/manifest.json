@@ -2,7 +2,7 @@
  "name": "Salahaat",
  "short_name": "Salahaat",
  "description": "",
- "background_color": "#f69435",
+ "background_color": "#00c975",
  "display": "standalone",
  "scope": "/",
  "start_url": "/",
