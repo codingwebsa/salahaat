@@ -20,7 +20,7 @@ const SearchComponent = () => {
   return (
     <>
       <form onSubmit={handleSearch}>
-        <div className="relative flex mx-4 items-center mb-3">
+        <div className="relative flex mx-4 items-center my-3">
           <input
             type="text"
             className="border border-slate-500 outline-baseGreen hover:border-baseGreen w-full py-3 rounded-full pl-4 pr-14"

@@ -3,6 +3,7 @@ import { Footer, Header, Navbar, Sidebar, SimpleHeader } from ".";
 // context
 import { useGlobalContext } from "@/context/globalContext";
 const Layout = ({
+  header = true,
   navbar = true,
   simpleHeader = false,
   footer = true,
@@ -12,7 +13,7 @@ const Layout = ({
   return (
     <>
       <div className="pb-8">
-        <Header />
+        {header && <Header />}
         <Sidebar isOpen={sidebarOpen} />
         {simpleHeader && <SimpleHeader />}
         <div>{children}</div>

@@ -10,7 +10,8 @@ const BranchFont = localFont({ src: "../../fonts/Branch.otf" });
 const Footer = () => {
   return (
     <>
-      <section className="py-10 sm:pt-16 lg:pt-24">
+      {/* <hr className="h-px border-none bg-gray-600 rounded-lg" /> */}
+      <section className="py-10 sm:pt-16 lg:pt-24 border-t-2 border-slate-300 rounded-t-3xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
@@ -35,7 +36,7 @@ const Footer = () => {
               <div className="my-5">
                 <div className="flex items-center gap-4 mt-4">
                   <span>
-                    <LocationIcon size={50} className="text-baseGreen" />
+                    <LocationIcon size={30} className="text-baseGreen" />
                   </span>
                   <span className="h-10 rounded-full w-1 opacity-40 bg-baseGreen"></span>
                   <span>
@@ -45,7 +46,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-4 mt-4">
                   <span>
-                    <PhoneIcon size={50} className="text-baseGreen" />
+                    <PhoneIcon size={30} className="text-baseGreen" />
                   </span>
                   <span className="h-10 rounded-full w-1 opacity-40 bg-baseGreen"></span>
                   <span className="flex flex-col">
