@@ -1,5 +1,4 @@
 import Layout from "./Layout";
-import BottomNavbar from "./Navbar/BottomNav";
 import Navbar from "./Navbar/Navbar";
 import Header from "./Navbar/Header";
 import SimpleHeader from "./Navbar/SimpleHeader";
@@ -13,10 +12,10 @@ import SignoutComponent from "./Account/SignoutComp";
 import QuickCart from "./QuickCart/QuickCart";
 import OrderForm from "./Order/OrderForm";
 import Footer from "./Footer/Footer";
+import FloatingCart from "./Floting/Cart";
 
 export {
   Layout,
-  BottomNavbar,
   SimpleHeader,
   Header,
   Sidebar,
@@ -30,4 +29,5 @@ export {
   QuickCart,
   OrderForm,
   Footer,
+  FloatingCart,
 };

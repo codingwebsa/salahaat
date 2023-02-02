@@ -1,5 +1,6 @@
 // component
 import {
+  FloatingCart,
   Footer,
   Header,
   Navbar,
@@ -15,19 +16,28 @@ const Layout = ({
   simpleHeader = false,
   footer = true,
   searchCom = false,
+  floating = true,
   children,
 }) => {
-  const { sidebarOpen } = useGlobalContext();
+  const { sidebarOpen, cartItems } = useGlobalContext();
   return (
     <>
       <div className="pb-8">
+        {/* header */}
         {header && <Header />}
+        {/* sidebar */}
         <Sidebar isOpen={sidebarOpen} />
+        {/* simple header */}
         {simpleHeader && <SimpleHeader />}
+        {/* searchcom */}
         {searchCom && <SearchComponent />}
         <div>{children}</div>
+        {/* bottoNavbar */}
         {navbar && <Navbar />}
+        {/* footer */}
         {footer && <Footer />}
+        {/* floating components */}
+        {cartItems.length > 0 && floating && <FloatingCart />}
       </div>
     </>
   );

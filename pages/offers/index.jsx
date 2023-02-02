@@ -4,9 +4,9 @@ import { getData } from "@/lib";
 const OfferPage = ({ data }) => {
   return (
     <>
-      <Layout>
+      <Layout searchCom>
         <div className="min-h-[50vh]">
-          <Booksec data={data} title="Offers" />
+          <Booksec data={data} offerChip title="Offers For you!" />
         </div>
       </Layout>
     </>

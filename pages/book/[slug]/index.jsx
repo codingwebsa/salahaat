@@ -1,7 +1,6 @@
 // next
 import Image from "next/image";
 import Link from "next/link";
-import Head from "next/head";
 // react
 import { useState } from "react";
 // react-hot-toast
@@ -16,6 +15,7 @@ import { NextSeo } from "next-seo";
 
 // symble
 const Symble = () => <span>৳</span>;
+// page component
 const BookPage = ({ data, recentBooks }) => {
   const [readMore, setReadMore] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -54,14 +54,14 @@ const BookPage = ({ data, recentBooks }) => {
           images: [
             {
               url: imgurl,
-              width: 960,
-              height: 480,
+              width: 1920,
+              height: 960,
               alt: name,
             },
           ],
         }}
       />
-      <Layout header={false} simpleHeader={true}>
+      <Layout header={false} simpleHeader={true} navbar={false}>
         <SearchComponent />
         <div className="mt-8 pb-8 px-4">
           {/* ------image */}
@@ -72,6 +72,7 @@ const BookPage = ({ data, recentBooks }) => {
               height={300}
               className="rounded-lg shadow-md w-[95%] h-80  object-cover"
               alt={name}
+              priority
             />
           </div>
           {/* ------details */}
@@ -136,7 +137,7 @@ const BookPage = ({ data, recentBooks }) => {
               )}
             </div>
             {/* buttons */}
-            <div className="my-4 flex gap-4">
+            {/* <div className="my-4 flex gap-4">
               <button
                 className="text-lg bg-rose-700 text-white px-5 py-3 rounded-md"
                 onClick={() => handleOrder(data)}
@@ -146,8 +147,17 @@ const BookPage = ({ data, recentBooks }) => {
               <button className="text-lg bg-yellow-600 text-white px-5 py-3 rounded-md">
                 একটু পড়ে দেখুন
               </button>
-            </div>
+            </div> */}
           </div>
+        </div>
+        {/* add to cart button */}
+        <div className="fixed bottom-0 left-0 w-full py-3 flex justify-center z-[99]  bg-[rgba(255,255,255,.4)] backdrop-blur-sm backdrop-saturate-50 rounded-t-xl drop-shadow-md">
+          <button
+            className="relative text-lg bg-pink-700 text-white w-[90%] py-3 rounded-lg"
+            onClick={() => handleOrder(data)}
+          >
+            অর্ডার করুন
+          </button>
         </div>
         <Booksec data={recentBooks} title="আরো দেখুন…" />
       </Layout>

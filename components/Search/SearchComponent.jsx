@@ -16,6 +16,7 @@ const SearchComponent = () => {
       return;
     }
     router.push(`/search?q=${inpRef.current.value}`);
+    inpRef.current.blur();
   }
   return (
     <>
