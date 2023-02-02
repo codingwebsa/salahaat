@@ -1,21 +1,17 @@
-// nextjs
-import Head from "next/head";
 // components
 import { Booksec, CarouselCom, Layout, SearchComponent } from "@/components";
 import { getData } from "@/lib";
-import Navbar from "@/components/Navbar/Navbar";
+// next-seo
+import { NextSeo } from "next-seo";
 
 const HomePage = ({ data }) => {
   return (
     <>
-      <Head>
-        <title>Salahaat</title>
-      </Head>
-      <Layout navbar={false}>
+      <NextSeo title="Salahaat" />
+      <Layout>
         <SearchComponent />
         <CarouselCom />
         <Booksec title="Recent" data={data?.slice(0, 6)} />
-        <Navbar />
       </Layout>
     </>
   );

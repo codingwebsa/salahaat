@@ -1,7 +1,7 @@
 // nextjs
 import Head from "next/head";
 // components
-import { SearchComponent, BottomNavbar, Booksec } from "@/components";
+import { SearchComponent, BottomNavbar, Booksec, Layout } from "@/components";
 import { getCategories } from "@/lib";
 
 const CategorySingle = ({ name, data }) => {
@@ -10,8 +10,9 @@ const CategorySingle = ({ name, data }) => {
       <Head>
         <title>{`বিষয়: ${name}`}</title>
       </Head>
-      <SearchComponent />
-      <Booksec title={`বিষয়: ${name}`} data={data} />
+      <Layout searchCom={true}>
+        <Booksec title={`বিষয়: ${name}`} data={data} />
+      </Layout>
     </>
   );
 };

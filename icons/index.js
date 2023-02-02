@@ -8,6 +8,7 @@ import {
 import {
   AiOutlineShoppingCart as CartIcon,
   AiOutlineLogin as LoginIcon,
+  AiOutlineRight as RightIcon,
 } from "react-icons/ai";
 import { CgSearch as SearchIcon } from "react-icons/cg";
 import { IoMdClose as CloseIcon } from "react-icons/io";
@@ -38,4 +39,5 @@ export {
   OfferIcon,
   TruckIcon,
   LoginIcon,
+  RightIcon,
 };

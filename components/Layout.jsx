@@ -1,5 +1,12 @@
 // component
-import { Footer, Header, Navbar, Sidebar, SimpleHeader } from ".";
+import {
+  Footer,
+  Header,
+  Navbar,
+  SearchComponent,
+  Sidebar,
+  SimpleHeader,
+} from ".";
 // context
 import { useGlobalContext } from "@/context/globalContext";
 const Layout = ({
@@ -7,6 +14,7 @@ const Layout = ({
   navbar = true,
   simpleHeader = false,
   footer = true,
+  searchCom = false,
   children,
 }) => {
   const { sidebarOpen } = useGlobalContext();
@@ -16,6 +24,7 @@ const Layout = ({
         {header && <Header />}
         <Sidebar isOpen={sidebarOpen} />
         {simpleHeader && <SimpleHeader />}
+        {searchCom && <SearchComponent />}
         <div>{children}</div>
         {navbar && <Navbar />}
         {footer && <Footer />}

@@ -12,6 +12,7 @@ import { useGlobalContext } from "@/context/globalContext";
 import { Booksec, Layout, QuickCart, SearchComponent } from "@/components";
 // lib
 import { getData } from "@/lib";
+import { NextSeo } from "next-seo";
 
 // symble
 const Symble = () => <span>৳</span>;
@@ -19,7 +20,8 @@ const BookPage = ({ data, recentBooks }) => {
   const [readMore, setReadMore] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   //   initializing data
-  const { name, imgurl, publication, description, price, discountprice } = data;
+  const { name, imgurl, publication, description, price, discountprice, slug } =
+    data;
   const authors = data.authors.data;
   const categories = data.categories.data;
   const { cartItems, setCartItems } = useGlobalContext();
@@ -42,9 +44,23 @@ const BookPage = ({ data, recentBooks }) => {
 
   return (
     <>
-      <Head>
-        <title>{name} - Salahaat</title>
-      </Head>
+      <NextSeo
+        title={name + " - Salahaat"}
+        openGraph={{
+          type: "website",
+          url: `https://www.salahaat.vercel.app/book/${slug}`,
+          title: name + " - Salahaat",
+          description: description.slice(0, 100),
+          images: [
+            {
+              url: imgurl,
+              width: 960,
+              height: 480,
+              alt: name,
+            },
+          ],
+        }}
+      />
       <Layout header={false} simpleHeader={true}>
         <SearchComponent />
         <div className="mt-8 pb-8 px-4">

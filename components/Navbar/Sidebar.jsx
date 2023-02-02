@@ -82,7 +82,7 @@ const Sidebar = ({ isOpen }) => {
               <ul className="py-2 space-y-2">
                 <li onClick={closeSidebar}>
                   <Link
-                    href="/"
+                    href="/author"
                     className="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100"
                   >
                     <PenIcon size={20} className="text-gray-600" />
@@ -91,7 +91,7 @@ const Sidebar = ({ isOpen }) => {
                 </li>
                 <li onClick={closeSidebar}>
                   <Link
-                    href="/"
+                    href="/category"
                     className="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100"
                   >
                     <CategoryIcon size={20} className="text-gray-600" />
