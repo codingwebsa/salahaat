@@ -120,7 +120,7 @@ const Sidebar = ({ isOpen }) => {
             </li>
             <li onClick={closeSidebar}>
               <Link
-                href="/"
+                href="/offers"
                 className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg hover:bg-gray-100"
               >
                 <OfferIcon size={25} className="text-gray-600" />

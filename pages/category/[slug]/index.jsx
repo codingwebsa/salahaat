@@ -1,7 +1,7 @@
 // nextjs
 import Head from "next/head";
 // components
-import { SearchComponent, BottomNavbar, Booksec, Layout } from "@/components";
+import { Booksec, Layout } from "@/components";
 import { getCategories } from "@/lib";
 
 const CategorySingle = ({ name, data }) => {

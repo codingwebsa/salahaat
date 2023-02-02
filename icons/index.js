@@ -4,6 +4,7 @@ import {
   BiBookOpen as BookOpenIcon,
   BiCategoryAlt as CategoryIcon,
   BiStar as StarIcon,
+  BiPolygon as PolygonIcon,
 } from "react-icons/bi";
 import {
   AiOutlineShoppingCart as CartIcon,
@@ -40,4 +41,5 @@ export {
   TruckIcon,
   LoginIcon,
   RightIcon,
+  PolygonIcon,
 };

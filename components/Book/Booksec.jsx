@@ -1,7 +1,7 @@
 // components
 import Book from "./Book";
 
-const Booksec = ({ title, data }) => {
+const Booksec = ({ title, data, offerChip = false }) => {
   return (
     <div className="flex flex-col my-4">
       {title ? (
@@ -9,7 +9,7 @@ const Booksec = ({ title, data }) => {
       ) : null}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 justify-center gap-x-4 gap-y-6 pb-7 px-4">
         {data?.map((book, i) => (
-          <Book data={book.attributes} key={i} />
+          <Book data={book.attributes} offerChip={offerChip} key={i} />
         ))}
       </div>
     </div>

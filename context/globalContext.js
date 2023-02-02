@@ -14,6 +14,10 @@ const GlobalContextProvider = ({ children }) => {
   const ShipingFee = 30;
   var priceArray = [];
 
+  function calcDiscount(discountprice, price) {
+    return Math.floor(100 - (discountprice / price) * 100);
+  }
+
   // cartitems useEffect
   useEffect(() => {
     cartItems?.forEach((item) => {
@@ -50,6 +54,7 @@ const GlobalContextProvider = ({ children }) => {
     setSidebarOpen,
     ShipingFee,
     priceArray,
+    calcDiscount,
   };
   return (
     <GlobalContext.Provider value={sharedContext}>

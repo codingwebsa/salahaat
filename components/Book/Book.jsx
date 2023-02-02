@@ -1,15 +1,23 @@
 // next
+import { useGlobalContext } from "@/context/globalContext";
+import { PolygonIcon } from "@/icons";
 import Image from "next/image";
 import Link from "next/link";
 
 // symble
 const Symble = () => <span>৳</span>;
 
-const Book = ({ data }) => {
+const Book = ({ data, offerChip }) => {
+  const { calcDiscount } = useGlobalContext();
   const { slug, imgurl, name, price, discountprice, authors } = data;
   return (
     <>
-      <div>
+      <div className="relative">
+        {offerChip && discountprice && (
+          <span className="absolute text-sm font-bold bg-yellow-300 -translate-x-3 -translate-y-3 w-10 h-10 rounded-full flex justify-center items-center flex-col z-10">
+            <p>-{calcDiscount(discountprice, price)}%</p>
+          </span>
+        )}
         <Link href={`/book/${slug}`}>
           {/* image */}
           <Image

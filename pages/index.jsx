@@ -11,7 +11,7 @@ const HomePage = ({ data }) => {
       <Layout>
         <SearchComponent />
         <CarouselCom />
-        <Booksec title="Recent" data={data?.slice(0, 6)} />
+        <Booksec title="Recent Books" data={data?.slice(0, 6)} />
       </Layout>
     </>
   );
