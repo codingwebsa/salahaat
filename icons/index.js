@@ -17,7 +17,11 @@ import { HiOutlineUser as UserIcon, HiMenu as MenuIcon } from "react-icons/hi";
 import { GoLocation as LocationIcon } from "react-icons/go";
 import { FiPhone as PhoneIcon } from "react-icons/fi";
 import { SiGmail as GmailIcon, SiVfairs as FairIcon } from "react-icons/si";
-import { BsCaretDownFill as DownIcon, BsPen as PenIcon } from "react-icons/bs";
+import {
+  BsCaretDownFill as DownIcon,
+  BsPen as PenIcon,
+  BsArrowRightShort as RightArrowIcon,
+} from "react-icons/bs";
 import { MdOutlineLocalOffer as OfferIcon } from "react-icons/md";
 import { TbTruckDelivery as TruckIcon } from "react-icons/tb";
 export {
@@ -42,4 +46,5 @@ export {
   LoginIcon,
   RightIcon,
   PolygonIcon,
+  RightArrowIcon,
 };

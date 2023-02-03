@@ -2,9 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 // component
-import { Layout, SearchComponent } from "@/components";
+import { Layout } from "@/components";
 // lib
 import { getAutors } from "@/lib";
+// assets
+import ImgPlaceholder from "@/assets/img-placeholder.png";
 
 const AuthorPage = ({ data }) => {
   return (
@@ -18,14 +20,14 @@ const AuthorPage = ({ data }) => {
                 <>
                   <div
                     key={_i}
-                    className="flex gap-2 items-center text-xl py-2 pl-2"
+                    className="flex gap-3 items-center text-xl py-2 pl-2"
                   >
                     <Image
-                      src={imgurl}
-                      className="rounded-full"
+                      src={imgurl || ImgPlaceholder}
+                      className="rounded-full shadow-md"
                       alt={name}
-                      width={35}
-                      height={35}
+                      width={40}
+                      height={40}
                     />
                     <Link href={`/author/${slug}`}>
                       <p className="underline">{name}</p>

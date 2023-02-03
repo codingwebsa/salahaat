@@ -9,7 +9,7 @@ const FloatingCart = () => {
   const { total } = useGlobalContext();
   return (
     <>
-      <div className="inline-block fixed bottom-[15vh] right-4 bg-purple-800 p-4 rounded-full shadow-lg z-[99] animate-bounce cursor-pointer">
+      <div className="inline-block fixed bottom-[12vh] right-4 bg-purple-800 p-4 rounded-full shadow-lg z-[99] animate-bounce cursor-pointer">
         <Link href="/cart" className="flex flex-col items-center">
           <span>
             <CartIcon size={27} className="text-white" />

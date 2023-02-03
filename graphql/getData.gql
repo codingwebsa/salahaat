@@ -1,0 +1,33 @@
+# Write your query or mutation here
+query getData {
+  books(pagination: { limit: 10000 }) {
+    data {
+      attributes {
+        name
+        slug
+        price
+        description
+        discountprice
+        imgurl
+        publication
+        extradetails
+        authors {
+          data {
+            attributes {
+              name
+              slug
+            }
+          }
+        }
+        categories {
+          data {
+            attributes {
+              name
+              slug
+            }
+          }
+        }
+      }
+    }
+  }
+}

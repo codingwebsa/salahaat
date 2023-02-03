@@ -1,0 +1,40 @@
+query getcategories {
+  categories(pagination: { limit: 10000 }) {
+    data {
+      attributes {
+        name
+        slug
+        books {
+          data {
+            attributes {
+              name
+              price
+              discountprice
+              imgurl
+              slug
+              publication
+              extradetails
+              description
+              authors {
+                data {
+                  attributes {
+                    name
+                    slug
+                  }
+                }
+              }
+              categories {
+                data {
+                  attributes {
+                    name
+                    slug
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

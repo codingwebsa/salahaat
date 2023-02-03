@@ -12,6 +12,7 @@ import { Booksec, Layout, QuickCart, SearchComponent } from "@/components";
 // lib
 import { getData } from "@/lib";
 import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 // symble
 const Symble = () => <span>৳</span>;
@@ -44,23 +45,9 @@ const BookPage = ({ data, recentBooks }) => {
 
   return (
     <>
-      <NextSeo
-        title={name + " - Salahaat"}
-        openGraph={{
-          type: "website",
-          url: `https://www.salahaat.vercel.app/book/${slug}`,
-          title: name + " - Salahaat",
-          description: description.slice(0, 100),
-          images: [
-            {
-              url: imgurl,
-              width: 1920,
-              height: 960,
-              alt: name,
-            },
-          ],
-        }}
-      />
+      <Head>
+        <title>{name} - Salahaat</title>
+      </Head>
       <Layout header={false} simpleHeader={true} navbar={false}>
         <SearchComponent />
         <div className="mt-8 pb-8 px-4">
@@ -151,16 +138,21 @@ const BookPage = ({ data, recentBooks }) => {
           </div>
         </div>
         {/* add to cart button */}
-        <div className="fixed bottom-0 left-0 w-full py-3 flex justify-center z-[99]  bg-[rgba(255,255,255,.4)] backdrop-blur-sm backdrop-saturate-50 rounded-t-xl drop-shadow-md">
+        <div className="fixed bottom-0 left-0 w-full flex z-[99]">
+          <button className="text-xl flex-1 bg-white text-green-700 px-5 py-4">
+            একটু পড়ে দেখুন
+          </button>
           <button
-            className="relative text-lg bg-pink-700 text-white w-[90%] py-3 rounded-lg"
+            className="text-xl flex-1 bg-rose-700 text-white px-5 py-4"
             onClick={() => handleOrder(data)}
           >
             অর্ডার করুন
           </button>
         </div>
+        {/* recents books */}
         <Booksec data={recentBooks} title="আরো দেখুন…" />
       </Layout>
+      {/* quick cart */}
       <QuickCart
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
