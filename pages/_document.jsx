@@ -23,6 +23,9 @@ export default function Document() {
         <link rel="manifest" href="/manifest.json"></link>
         {/* icon */}
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        {/* self */}
+        <meta name="csrf-token" content="" />
+        <meta name="context-path" content="" />
       </Head>
       <body className="bg-slate-100 text-dark">
         <Main />

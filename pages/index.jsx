@@ -23,8 +23,6 @@ const HomePage = ({ data }) => {
           price. Cash on delivery, Happy return policy & Free shipping
           offer available. Shop Now!"
         />
-        <meta name="csrf-token" content="" />
-        <meta name="context-path" content="" />
         <meta property="og:image" content="/og-logo.jpg" />
         <meta property="og:image:width" content="1400" />
         <meta property="og:image:height" content="1050" />

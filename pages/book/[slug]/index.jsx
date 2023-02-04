@@ -11,7 +11,6 @@ import { useGlobalContext } from "@/context/globalContext";
 import { Booksec, Layout, QuickCart, SearchComponent } from "@/components";
 // lib
 import { getData } from "@/lib";
-import { NextSeo } from "next-seo";
 import Head from "next/head";
 
 // symble
@@ -46,7 +45,38 @@ const BookPage = ({ data, recentBooks }) => {
   return (
     <>
       <Head>
-        <title>{name} - Salahaat</title>
+        <title>
+          {name} : {authors[0].attributes.name} | Salahaat.vercel.app
+        </title>
+        <meta
+          name="description"
+          content={`${authors[0].attributes.name} এর ${name} অরিজিনাল বইটি সংগ্রহ করুন রকমারি ডট কম থেকে। বই হাতে পেয়ে মূল্য পরিশোধের সুবিধাসহ অফারভেদে উপভোগ করুন ফ্রি শিপিং এবং সর্বোচ্চ ছাড়!`}
+        />
+        <meta property="og:image" content={imgurl} />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="286" />
+        <meta
+          property="og:title"
+          content={`${name} - ${authors[0].attributes.name}`}
+        />
+        <meta
+          property="og:description"
+          content={`লেখকঃ ${authors[0].attributes.name}, ক্যাটাগরিঃ ${categories[0].attributes.name}, মূল্যঃ ${price}, লিংকঃ www.salahaat.vercel.app/book/${slug} `}
+        />
+        <meta
+          property="og:url"
+          content={`https://salahaat.vercel.app/book/${slug}`}
+        />
+        <meta property="product:brand" content={publication} />
+        <meta property="product:availability" content="in stock" />
+        <meta property="product:condition" content="new" />
+        <meta property="product:price:amount" content={price} />
+        <meta property="product:price:currency" content="BDT" />
+        <meta property="product:retailer_item_id" content={slug} />
+        <link
+          rel="canonical"
+          href={`https://salahaat.vercel.app/book/${slug}`}
+        />
       </Head>
       <Layout header={false} simpleHeader={true} navbar={false}>
         <SearchComponent />
