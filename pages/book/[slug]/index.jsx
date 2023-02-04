@@ -169,11 +169,11 @@ const BookPage = ({ data, recentBooks }) => {
         </div>
         {/* add to cart button */}
         <div className="fixed bottom-0 left-0 w-full flex z-[99]">
-          <button className="text-xl flex-1 bg-white text-green-700 px-5 py-4">
+          <button className="text-md flex-1 bg-white text-green-700 px-5 py-4">
             একটু পড়ে দেখুন
           </button>
           <button
-            className="text-xl flex-1 bg-rose-700 text-white px-5 py-4"
+            className="text-md flex-1 bg-emerald-700 text-white px-5 py-4"
             onClick={() => handleOrder(data)}
           >
             অর্ডার করুন
