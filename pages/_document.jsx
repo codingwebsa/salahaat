@@ -22,11 +22,7 @@ export default function Document() {
         {/* manifest */}
         <link rel="manifest" href="/manifest.json"></link>
         {/* icon */}
-        <link
-          rel="shortcut icon"
-          href="/favicon-32x32.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <body className="bg-slate-100 text-dark">
         <Main />
