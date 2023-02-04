@@ -3,32 +3,26 @@ import { Booksec, CarouselCom, Layout, SearchComponent } from "@/components";
 import { getData } from "@/lib";
 // next-seo
 import { NextSeo } from "next-seo";
+// nextjs
+import Head from "next/head";
 
 const HomePage = ({ data }) => {
   return (
     <>
-      <NextSeo
-        title="Salahaat"
-        openGraph={{
-          type: "website",
-          url: `https://www.salahaat.vercel.app/`,
-          title: "Salahaat",
-          description: `Salahaat.com is the largest online bookstore in Bangladesh. Buy
+      <Head>
+        <title>
+          Buy Book Online - Best Online Book Shop in Bangladesh | Salahaat.com
+        </title>
+        <meta
+          name="description"
+          content="Salahaat.com is the largest online bookstore in Bangladesh. Buy
           Novel, Story, Islamic, Computer Programming, Children, West
           Bengal, Fiction, Non fiction, Medical, Engineering, Gift cards &
           Text books from the biggest selection of Bangla books at lowest
           price. Cash on delivery, Happy return policy & Free shipping
-          offer available. Shop Now!`,
-          images: [
-            {
-              url: "/logo.png",
-              width: 960,
-              height: 480,
-              alt: "salahaat",
-            },
-          ],
-        }}
-      />
+          offer available. Shop Now!"
+        />
+      </Head>
       <Layout>
         <SearchComponent />
         <CarouselCom />
