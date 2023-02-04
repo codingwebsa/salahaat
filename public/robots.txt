@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://salahaat.vercel.app/
+
+# Sitemaps
+Sitemap: https://salahaat.vercel.app/sitemap.xml
