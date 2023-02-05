@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { collection, getFirestore } from "firebase/firestore";
 import {
   getAuth,
   GoogleAuthProvider,
@@ -20,8 +21,13 @@ const firebaseConfig = {
 
 //** */ Initialize Firebase
 const app = initializeApp(firebaseConfig);
+//  firestore
+// initialize firestore
+const firebaseDB = getFirestore(app);
+const orderColRef = collection(firebaseDB, "orders");
 //** */ initialize analytics
 let analytics;
+
 if (app.name && typeof window !== "undefined") {
   analytics = getAnalytics(app);
 }
@@ -39,4 +45,11 @@ const googleSignOut = () => {
 };
 
 export default app;
-export { auth, googleSignIn, googleSignOut, analytics };
+export {
+  auth,
+  googleSignIn,
+  googleSignOut,
+  analytics,
+  orderColRef,
+  firebaseDB,
+};

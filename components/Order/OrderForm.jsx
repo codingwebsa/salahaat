@@ -3,8 +3,8 @@ import { useRouter } from "next/router";
 //   react
 import { useEffect, useRef, useState } from "react";
 // firestore
-//   import { addDoc, serverTimestamp } from "firebase/firestore";
-//   import { orderCollertionRef } from "../firebase.config";
+import { addDoc, serverTimestamp } from "firebase/firestore";
+import { orderColRef } from "@/services/firebase";
 // email js
 //   import emailjs from "@emailjs/browser";
 //   mui
@@ -27,7 +27,7 @@ const OrderForm = () => {
   const [city, setCity] = useState(null);
   const [areas, setAreas] = useState(null);
   const { user, cartItems, subTotal, total, ShipingFee } = useGlobalContext();
-  const [orderID, setOrderID] = useState();
+  const [orderID, setOrderID] = useState(null);
   const formRef = useRef();
   const router = useRouter();
 
@@ -112,58 +112,57 @@ const OrderForm = () => {
     const area = e.target.area.value;
     const addressDetails = e.target.addressDetails.value;
 
-    //   async function addDataToFirestore() {
-    //     addDoc(orderCollertionRef, {
-    //       name,
-    //       phoneNum,
-    //       alternativePhoneNum,
-    //       email,
-    //       country,
-    //       city,
-    //       area,
-    //       addressDetails,
-    //       cartItems,
-    //       ShipingFee,
-    //       subTotal,
-    //       total,
-    //       status: "pending",
-    //       paymentMethod: "Pay on Delivery",
-    //       orderAt: serverTimestamp(),
-    //     }).then((docRef) => {
-    //       if (typeof window !== "undefined") {
-    //         localStorage.setItem("recentOrderID", docRef.id);
+    async function addDataToFirestore() {
+      const snap = await addDoc(orderColRef, {
+        name,
+        phoneNum,
+        alternativePhoneNum,
+        email,
+        country,
+        city,
+        area,
+        addressDetails,
+        cartItems,
+        ShipingFee,
+        subTotal,
+        total,
+        status: "pending",
+        paymentMethod: "Pay on Delivery",
+        orderAt: serverTimestamp(),
+      });
+
+      if (typeof window !== "undefined") {
+        localStorage.setItem("recentOrderID", snap.id);
+      }
+      setOrderID(snap.id);
+    }
+    // function SendMail() {
+    //   emailjs
+    //     .sendForm(
+    //       "service_e076th7",
+    //       "template_emcfbol",
+    //       formRef.current,
+    //       "GYKYSDNLfkwAq8DjX"
+    //     )
+    //     .then(
+    //       (result) => {
+    //         console.log(result.text);
+    //       },
+    //       (error) => {
+    //         console.log(error.text);
     //       }
-    //       setOrderID(docRef.id);
-    //     });
-    //   }
-    //   function SendMail() {
-    //     emailjs
-    //       .sendForm(
-    //         "service_e076th7",
-    //         "template_emcfbol",
-    //         formRef.current,
-    //         "GYKYSDNLfkwAq8DjX"
-    //       )
-    //       .then(
-    //         (result) => {
-    //           console.log(result.text);
-    //         },
-    //         (error) => {
-    //           console.log(error.text);
-    //         }
-    //       );
-    //   }
+    //     );
+    // }
 
     // calling functions
-    //   setLoading(true);
-    //   addDataToFirestore();
-    //   SendMail();
-    //   formRef.current.reset();
-    //   setTimeout(() => {
-    //     setLoading(false);
-    //   }, 500);
+    setLoading(true);
+    addDataToFirestore();
+    // SendMail();
+    formRef.current.reset();
 
-    //   console.log("done");
+    // setTimeout(() => {
+    //   setLoading(false);
+    // }, 500);
   }
   useEffect(() => {
     if (city == "ঢাকা") {

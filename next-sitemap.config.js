@@ -2,6 +2,6 @@
 module.exports = {
   siteUrl: process.env.SITE_URL || "https://salahaat.vercel.app/",
   generateRobotsTxt: true, // (optional)
-  exclude: ["/api/*"],
+  exclude: ["/api/*", "/order/*"],
   // ...other options
 };
