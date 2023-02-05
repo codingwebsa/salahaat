@@ -26,7 +26,8 @@ const OrderForm = () => {
   const [loading, setLoading] = useState(false);
   const [city, setCity] = useState(null);
   const [areas, setAreas] = useState(null);
-  const { user, cartItems, subTotal, total, ShipingFee } = useGlobalContext();
+  const { user, cartItems, subTotal, total, ShipingFee, setCartItems } =
+    useGlobalContext();
   const [orderID, setOrderID] = useState(null);
   const formRef = useRef();
   const router = useRouter();
@@ -135,6 +136,7 @@ const OrderForm = () => {
         localStorage.setItem("recentOrderID", snap.id);
       }
       setOrderID(snap.id);
+      setCartItems([]);
     }
     // function SendMail() {
     //   emailjs
