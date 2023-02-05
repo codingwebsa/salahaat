@@ -136,7 +136,6 @@ const OrderForm = () => {
         localStorage.setItem("recentOrderID", snap.id);
       }
       setOrderID(snap.id);
-      setCartItems([]);
     }
     // function SendMail() {
     //   emailjs
@@ -326,6 +325,7 @@ const OrderForm = () => {
   // conditions
   if (orderID) {
     router.push(`/order/${orderID}`);
+    setCartItems([]);
   }
 
   if (loading) {
