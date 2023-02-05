@@ -1,16 +1,19 @@
 // nextjs
 import Link from "next/link";
+import Head from "next/head";
 // component
 import { Layout } from "@/components";
 // lib
-import { getCategories } from "@/lib";
+import { categoryData as data } from "@/data";
+// icons
 import { RightIcon } from "@/icons";
-import { NextSeo } from "next-seo";
 
-const CategoryPage = ({ data }) => {
+const CategoryPage = () => {
   return (
     <>
-      <NextSeo title="Categories - Salahaat" />
+      <Head>
+        <title>Categories - Salahaat</title>
+      </Head>
       <Layout searchCom={true}>
         <div>
           <div className="flex flex-col py-6 px-2 min-h-[50vh]">
@@ -38,13 +41,3 @@ const CategoryPage = ({ data }) => {
 };
 
 export default CategoryPage;
-
-export async function getStaticProps() {
-  const data = await getCategories();
-
-  return {
-    props: {
-      data,
-    },
-  };
-}

@@ -2,7 +2,7 @@
 import Head from "next/head";
 // components
 import { Booksec, Layout } from "@/components";
-import { getCategories } from "@/lib";
+import { categoryData } from "@/data";
 
 const CategorySingle = ({ name, data }) => {
   return (
@@ -20,9 +20,9 @@ const CategorySingle = ({ name, data }) => {
 export default CategorySingle;
 
 export const getStaticPaths = async () => {
-  const data = await getCategories();
-
-  let paths = data.map((d) => ({ params: { slug: d.attributes.slug } }));
+  let paths = categoryData.map((d) => ({
+    params: { slug: d.attributes.slug },
+  }));
   return {
     paths: paths,
     fallback: false,
@@ -32,14 +32,12 @@ export const getStaticPaths = async () => {
 export async function getStaticProps({ params }) {
   const { slug } = params;
 
-  const data = await getCategories();
-
-  const categoryData = data.find((x, _i) => x.attributes.slug == slug);
+  const _categoryData = categoryData.find((x, _i) => x.attributes.slug == slug);
 
   return {
     props: {
-      data: categoryData.attributes.books.data,
-      name: categoryData.attributes.name,
+      data: _categoryData.attributes.books.data,
+      name: _categoryData.attributes.name,
     },
   };
 }

@@ -14,6 +14,7 @@ export const book = {
               "https://res.cloudinary.com/dd2xrg1vb/image/upload/v1672378864/book_web/ncxi4u34fhk9vlpwe9u9.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা:  144, কভার : পেপার ব্যাক",
+            tags: "nobi jiboner golpo, nobir jiboner golpo, arif ajad",
             authors: {
               data: [
                 {
@@ -48,6 +49,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_qns8lr.jpg",
             publication: "গার্ডিয়ান পাবলিকেশনস",
             extradetails: "পৃষ্ঠাসংখ্যা: 168 , হার্ড কভার",
+            tags: "paradoxical sajid, paradexical sazid, arif azad",
             authors: {
               data: [
                 {
@@ -88,6 +90,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_aycvna.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: 211, কভার : পেপার ব্যাক",
+            tags: "golpo gulo onno rokom, golpogulo onnorokom, arif azad",
             authors: {
               data: [
                 {
@@ -128,6 +131,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%86%E0%A6%B0%E0%A6%9C_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A7%87_f6hmcc.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: , কভার : পেপার ব্যাক",
+            tags: "aroj ali somipe, aroz ali somipe, arif ajad",
             authors: {
               data: [
                 {
@@ -162,6 +166,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%8F%E0%A6%AC%E0%A6%82_%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE_ggtske.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: null,
+            tags: "ma ma ma ebong baba, ma ma ma baba, arif azad",
             authors: {
               data: [
                 {
@@ -196,6 +201,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_bjchke.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: 225, কভার : পেপার ব্যাক",
+            tags: "paradoxical sajid 2, paradexical sazid 2, arif azad",
             authors: {
               data: [
                 {
@@ -242,6 +248,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_s4jisz.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: null,
+            tags: "bela phurabar age, arif ajad, bela furabar age",
             authors: {
               data: [
                 {
@@ -282,6 +289,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675092790/salahaat-images/%E0%A6%86%E0%A6%AE%E0%A6%BF_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%96%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%AE_nbwozr.jpg",
             publication: "মাকতাবাতুল আযহার",
             extradetails: null,
+            tags: "ami jodi pakhi hotam",
             authors: {
               data: [
                 {

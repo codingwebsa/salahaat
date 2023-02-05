@@ -13,6 +13,8 @@ import QuickCart from "./QuickCart/QuickCart";
 import OrderForm from "./Order/OrderForm";
 import Footer from "./Footer/Footer";
 import FloatingCart from "./Floting/Cart";
+import DiscountSec from "./Sections/Discount";
+import PopularSearches from "./Sections/PopularSearches";
 
 export {
   Layout,
@@ -30,4 +32,6 @@ export {
   OrderForm,
   Footer,
   FloatingCart,
+  DiscountSec,
+  PopularSearches,
 };

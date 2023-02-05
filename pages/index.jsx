@@ -1,5 +1,12 @@
 // components
-import { Booksec, CarouselCom, Layout, SearchComponent } from "@/components";
+import {
+  Booksec,
+  CarouselCom,
+  DiscountSec,
+  Layout,
+  PopularSearches,
+  SearchComponent,
+} from "@/components";
 // data
 import { bookData as data } from "@/data";
 // nextjs
@@ -37,8 +44,13 @@ const HomePage = () => {
       </Head>
       <Layout>
         <SearchComponent />
+        <PopularSearches />
         <CarouselCom />
+        {/* recent */}
         <Booksec title="Recent Books" data={data?.slice(0, 6)} />
+        {/* discount */}
+        {/* <DiscountSec /> */}
+        {/* popular searches */}
       </Layout>
     </>
   );

@@ -2,20 +2,24 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
 // components
-import { Booksec, Layout, SearchComponent } from "@/components";
+import {
+  Booksec,
+  Layout,
+  PopularSearches,
+  SearchComponent,
+} from "@/components";
 // fuse.js
 import Fuse from "fuse.js";
 // data
-import { bookData as BookData } from "@/data";
+import { bookData as impBooksData } from "@/data";
 import { useEffect, useState } from "react";
 
 const Search = () => {
   const [modifiedData, setmodifiedData] = useState([]);
-  //   console.log(BookData);
   const router = useRouter();
   const query = router.query.q;
 
-  const fuse = new Fuse(BookData, {
+  const fuse = new Fuse(impBooksData, {
     keys: [
       "attributes.name",
       "attributes.authors.data.attributes.name",
@@ -28,7 +32,7 @@ const Search = () => {
     let tempModifiedData = [];
     const fuseData = fuse.search(query || "");
     fuseData.forEach((data, _i) =>
-      tempModifiedData.push(BookData[data.refIndex])
+      tempModifiedData.push(impBooksData[data.refIndex])
     );
     setmodifiedData(tempModifiedData);
   }, [query]);
@@ -39,8 +43,8 @@ const Search = () => {
         <title>Search</title>
       </Head>
       <div>
-        <Layout footer={false}>
-          <SearchComponent />
+        <Layout footer={false} searchCom>
+          <PopularSearches type="wrap" />
           <Booksec data={modifiedData} />
           {/* conditions */}
           {!query && (

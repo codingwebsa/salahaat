@@ -3,7 +3,7 @@
  "short_name": "Salahaat",
  "description": "",
  "background_color": "#00c975",
- "display": "standalone",
+ "display": "fullscreen",
  "scope": "/",
  "start_url": "/",
  "theme_color": "#E8F3F1",
