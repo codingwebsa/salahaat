@@ -1,6 +1,7 @@
 // next
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 // react
 import { useState } from "react";
 // react-hot-toast
@@ -10,8 +11,7 @@ import { useGlobalContext } from "@/context/globalContext";
 // components
 import { Booksec, Layout, QuickCart, SearchComponent } from "@/components";
 // lib
-import { getData } from "@/lib";
-import Head from "next/head";
+import { bookData as impBookData } from "@/data";
 
 // symble
 const Symble = () => <span>৳</span>;
@@ -89,7 +89,7 @@ const BookPage = ({ data, recentBooks }) => {
               height={300}
               className="rounded-lg shadow-md w-[95%] h-80  object-cover"
               alt={name}
-              priority
+              priority="true"
             />
           </div>
           {/* ------details */}
@@ -195,8 +195,7 @@ const BookPage = ({ data, recentBooks }) => {
 export default BookPage;
 
 export const getStaticPaths = async () => {
-  const data = await getData();
-  let paths = data.map((d) => ({ params: { slug: d.attributes.slug } }));
+  let paths = impBookData.map((d) => ({ params: { slug: d.attributes.slug } }));
   return {
     paths: paths,
     fallback: false,
@@ -206,14 +205,12 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { slug } = params;
 
-  const data = await getData();
-
-  const bookData = data.find((sing, _i) => sing.attributes.slug == slug);
+  const bookData = impBookData.find((sing, _i) => sing.attributes.slug == slug);
 
   return {
     props: {
       data: bookData.attributes,
-      recentBooks: data.slice(0, 8),
+      recentBooks: impBookData.slice(0, 8),
     },
   };
 };

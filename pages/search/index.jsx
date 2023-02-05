@@ -5,11 +5,11 @@ import Head from "next/head";
 import { Booksec, Layout, SearchComponent } from "@/components";
 // fuse.js
 import Fuse from "fuse.js";
-// @lib
-import { getData } from "@/lib";
+// data
+import { bookData as BookData } from "@/data";
 import { useEffect, useState } from "react";
 
-const Search = ({ BookData }) => {
+const Search = () => {
   const [modifiedData, setmodifiedData] = useState([]);
   //   console.log(BookData);
   const router = useRouter();
@@ -56,13 +56,3 @@ const Search = ({ BookData }) => {
 };
 
 export default Search;
-
-export async function getStaticProps() {
-  const data = await getData();
-
-  return {
-    props: {
-      BookData: data,
-    },
-  };
-}

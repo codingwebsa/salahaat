@@ -1,12 +1,11 @@
 // components
 import { Booksec, CarouselCom, Layout, SearchComponent } from "@/components";
-import { getData } from "@/lib";
-// next-seo
-import { NextSeo } from "next-seo";
+// data
+import { bookData as data } from "@/data";
 // nextjs
 import Head from "next/head";
 
-const HomePage = ({ data }) => {
+const HomePage = () => {
   return (
     <>
       <Head>
@@ -46,13 +45,3 @@ const HomePage = ({ data }) => {
 };
 
 export default HomePage;
-
-export async function getStaticProps() {
-  const data = await getData();
-
-  return {
-    props: {
-      data,
-    },
-  };
-}
