@@ -15,6 +15,7 @@ import Footer from "./Footer/Footer";
 import FloatingCart from "./Floting/Cart";
 import DiscountSec from "./Sections/Discount";
 import PopularSearches from "./Sections/PopularSearches";
+import CategoryView from "./Sections/CategoryView";
 
 export {
   Layout,
@@ -34,4 +35,5 @@ export {
   FloatingCart,
   DiscountSec,
   PopularSearches,
+  CategoryView,
 };

@@ -10,8 +10,8 @@ const PopularSearches = ({ type = "inline", title = false }) => {
   ];
   return (
     <>
-      <div className="my-5 mx-4">
-        {title && <p>Popular Searches</p>}
+      <div className="mb-4 mx-4">
+        {title && <p className="text-sm ml-1 mb-2">Popular Searches</p>}
         <div
           className={`flex gap-2 overflow-x-auto ${
             type == "inline" ? "" : "flex-wrap justify-evenly"
@@ -20,7 +20,7 @@ const PopularSearches = ({ type = "inline", title = false }) => {
           {arr.map((searchTag, _i) => (
             <Link
               href={`/search?q=${searchTag}`}
-              className="py-2 px-3 bg-gray-200 rounded-full border border-slate-400 min-w-max text-sm"
+              className="py-2 px-3 bg-gray-200 rounded-full border border-slate-400 min-w-max text-xs"
               key={_i}
             >
               <span>{searchTag}</span>

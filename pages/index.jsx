@@ -2,6 +2,7 @@
 import {
   Booksec,
   CarouselCom,
+  CategoryView,
   DiscountSec,
   Layout,
   PopularSearches,
@@ -44,8 +45,9 @@ const HomePage = () => {
       </Head>
       <Layout>
         <SearchComponent />
-        <PopularSearches />
+        <PopularSearches title />
         <CarouselCom />
+        <CategoryView />
         {/* recent */}
         <Booksec title="Recent Books" data={data?.slice(0, 6)} />
         {/* discount */}

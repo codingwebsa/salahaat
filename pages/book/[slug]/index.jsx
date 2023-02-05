@@ -80,7 +80,7 @@ const BookPage = ({ data, recentBooks }) => {
       </Head>
       <Layout header={false} simpleHeader={true} navbar={false}>
         <SearchComponent />
-        <div className="mt-8 pb-8 px-4">
+        <div className="mt-8 pb-3 px-4">
           {/* ------image */}
           <div className="flex justify-center">
             <Image
@@ -93,7 +93,7 @@ const BookPage = ({ data, recentBooks }) => {
             />
           </div>
           {/* ------details */}
-          <div className="py-8 flex flex-col gap-2">
+          <div className="pt-8 flex flex-col gap-2">
             <h1 className="text-lg font-bold">{name}</h1>
             {/* close details */}
             <div>
@@ -121,7 +121,6 @@ const BookPage = ({ data, recentBooks }) => {
               </span>
             </div>
             {/* description */}
-
             <p className="text-slate-700 text-sm text-justify">
               {readMore ? description : description.substring(0, 250)}
               {description.length > 250 && (
@@ -134,43 +133,26 @@ const BookPage = ({ data, recentBooks }) => {
               )}
             </p>
           </div>
-          {/* ------order section */}
-          <div>
-            {/* price */}
-            <div className="flex gap-2 items-center mt-1">
+        </div>
+        {/* add to cart button */}
+        <div className="fixed bottom-0 left-0 w-full flex z-[99]">
+          <button className="text-md flex-1 inline-flex justify-center bg-white text-green-700 px-5 py-4">
+            <div className="flex gap-2 items-center">
               {discountprice ? (
                 <>
-                  <span className="text-3xl text-baseGreen font-semibold">
+                  <span className="text-xl text-baseGreen font-semibold">
                     <Symble /> {discountprice}
                   </span>
-                  <s className="text-xl text-gray-600">
+                  <s className="text-md text-gray-600">
                     <Symble /> {price}
                   </s>
                 </>
               ) : (
-                <span className="text-3xl font-semibold text-baseGreen">
+                <span className="text-xl font-semibold text-baseGreen">
                   <Symble /> {price}
                 </span>
               )}
             </div>
-            {/* buttons */}
-            {/* <div className="my-4 flex gap-4">
-              <button
-                className="text-lg bg-rose-700 text-white px-5 py-3 rounded-md"
-                onClick={() => handleOrder(data)}
-              >
-                অর্ডার করুন
-              </button>
-              <button className="text-lg bg-yellow-600 text-white px-5 py-3 rounded-md">
-                একটু পড়ে দেখুন
-              </button>
-            </div> */}
-          </div>
-        </div>
-        {/* add to cart button */}
-        <div className="fixed bottom-0 left-0 w-full flex z-[99]">
-          <button className="text-md flex-1 bg-white text-green-700 px-5 py-4">
-            একটু পড়ে দেখুন
           </button>
           <button
             className="text-md flex-1 bg-emerald-700 text-white px-5 py-4"
