@@ -9,11 +9,14 @@ import {
   SearchComponent,
 } from "@/components";
 // data
-import { bookData as data } from "@/data";
+import { bookData as data, authorData } from "@/data";
 // nextjs
 import Head from "next/head";
 
 const HomePage = () => {
+  const arifAzadsBook = authorData.filter(
+    (x) => x.attributes.slug === "arif-azad"
+  )[0];
   return (
     <>
       <Head>
@@ -47,9 +50,16 @@ const HomePage = () => {
         <SearchComponent />
         <PopularSearches title />
         <CarouselCom />
-        <CategoryView />
         {/* recent */}
         <Booksec title="Recent Books" data={data?.slice(0, 6)} />
+        {/* category view */}
+        <hr className="my-3" />
+        <CategoryView />
+        {/* islamic adorsho o motobad */}
+        <Booksec
+          title="আরিফ আজাদ"
+          data={arifAzadsBook?.attributes.books.data.slice(0, 6)}
+        />
         {/* discount */}
         {/* <DiscountSec /> */}
         {/* popular searches */}

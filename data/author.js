@@ -7,7 +7,7 @@ export const auhtor = {
             name: "আরিফ আজাদ",
             slug: "arif-azad",
             imgurl:
-              "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675312111/authors-image/arif-azad_ch73rw.jpg",
+              "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675687679/salahaat/authors/arif-azad_h4zw2q.jpg",
             books: {
               data: [
                 {
@@ -16,7 +16,7 @@ export const auhtor = {
                     price: 245,
                     discountprice: 172,
                     imgurl:
-                      "https://res.cloudinary.com/dd2xrg1vb/image/upload/v1672378864/book_web/ncxi4u34fhk9vlpwe9u9.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%A8%E0%A6%AC%E0%A6%BF_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA_upeobh.jpg",
                     slug: "nobi-jiboner-golpo",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: "পৃষ্ঠা সংখ্যা:  144, কভার : পেপার ব্যাক",
@@ -50,7 +50,7 @@ export const auhtor = {
                     price: 255,
                     discountprice: null,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_qns8lr.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_fhzvro.jpg",
                     slug: "paradoxical-sajid-1",
                     publication: "গার্ডিয়ান পাবলিকেশনস",
                     extradetails: "পৃষ্ঠাসংখ্যা: 168 , হার্ড কভার",
@@ -90,7 +90,7 @@ export const auhtor = {
                     price: 350,
                     discountprice: 245,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_aycvna.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_gfrmfl.jpg",
                     slug: "golpogulo-onno-rokom",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: "পৃষ্ঠা সংখ্যা: 211, কভার : পেপার ব্যাক",
@@ -130,7 +130,7 @@ export const auhtor = {
                     price: 260,
                     discountprice: 182,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%86%E0%A6%B0%E0%A6%9C_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A7%87_f6hmcc.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%86%E0%A6%B0%E0%A6%9C_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A7%87_iwrzny.jpg",
                     slug: "aroj-ali-somipe",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: "পৃষ্ঠা সংখ্যা: , কভার : পেপার ব্যাক",
@@ -164,7 +164,7 @@ export const auhtor = {
                     price: 260,
                     discountprice: 182,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%8F%E0%A6%AC%E0%A6%82_%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE_ggtske.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%8F%E0%A6%AC%E0%A6%82_%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE_vkdpc4.jpg",
                     slug: "ma-ma-ma-ebong-baba",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: null,
@@ -198,7 +198,7 @@ export const auhtor = {
                     price: 390,
                     discountprice: 283,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837349/salahaat-images/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_bjchke.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_hcfhgm.jpg",
                     slug: "paradoxical-sajid-2",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: "পৃষ্ঠা সংখ্যা: 225, কভার : পেপার ব্যাক",
@@ -244,7 +244,7 @@ export const auhtor = {
                     price: 335,
                     discountprice: 235,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1674837348/salahaat-images/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_s4jisz.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_yo8g2t.jpg",
                     slug: "bela-furabar-age",
                     publication: "সমকালীন প্রকাশন",
                     extradetails: null,
@@ -278,6 +278,75 @@ export const auhtor = {
                     },
                   },
                 },
+                {
+                  attributes: {
+                    name: "এবার ভিন্ন কিছু হোক",
+                    price: 340,
+                    discountprice: 248,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A8_%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81_%E0%A6%B9%E0%A7%8B%E0%A6%95_radebq.jpg",
+                    slug: "ebar-vinno-kichu-hok",
+                    publication: "সমকালীন প্রকাশন",
+                    extradetails:
+                      "পৃষ্ঠা : 200, কভার : পেপার ব্যাক, সংস্করণ : 1st Published, 2022",
+                    description:
+                      "প্রতিদিন একটা একঘেয়েমি চক্রে কেটে যাচ্ছে জীবনের প্রতিটি মুহূর্ত। মাঝে মাঝে আফসোস লাগে—এভাবে একটা জীবন চলতে পারে? এভাবেই কি ক্ষয়ে যাওয়ার কথা আস্ত একটা জীবন? কী পাওয়ার বদলে কী হারাচ্ছি জীবন থেকে?জীবনে একটা বদল প্রয়োজন, একটা পরিবর্তন ভীষণ জরুরি—তা আমরা জানি। কিন্তু কীভাবে শুরু করবো? ঠিক কোথা থেকে যাত্রা করবো নতুন এক দিনের? কীভাবে মেলে ধরবো নিজের সবটুকু সম্ভাবনা? কীভাবে পেছনে ফেলে আসবো সকল ব্যর্থতা? যে অন্ধকারে হারিয়ে খুঁজে বেড়াচ্ছি নিজেকে, কীভাবে সেখানে ঘটবে আলোর স্ফুরণ?একটা নতুন ভোরে, দখিনের জানালার পাশে বসে কিংবা পছন্দের কোনো জায়গা আর সময়-সুযোগ বুঝে খুলে বসতে পারেন ‘এবার ভিন্ন কিছু হোক’ বইটি। যে প্রশ্নগুলোর উত্তর পাবার আশায় আপনি চাতক পাখির মতো তাকিয়ে, হৃদয়ের উঠোনে যে এক পশলা ঝুম বৃষ্টির প্রতীক্ষায় আপনি গুনে চলেছেন অজস্র প্রহর, ইনশাআল্লাহ বইটি আপনাকে সেই কাঙ্ক্ষিত মুহূর্তগুলো উপহার দেবে। জীবনের এক নতুন উপাখ্যান রচনায় বইটি হতে পারে আপনার নিত্যদিনের সাথি।",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                            slug: "arif-azad",
+                          },
+                        },
+                      ],
+                    },
+                    categories: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আত্মশুদ্ধি ও অনুপ্রেরণা",
+                            slug: "attoshuddhi-o-onuprerona",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+                {
+                  attributes: {
+                    name: "জীবন যেখানে যেমন",
+                    price: 275,
+                    discountprice: 192,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A7%87_%E0%A6%AF%E0%A7%87%E0%A6%AE%E0%A6%A8_yktcyq.jpg",
+                    slug: "jibon-jekhane-jemon",
+                    publication: "সমকালীন প্রকাশন",
+                    extradetails: "পৃষ্ঠা : 152, কভার : পেপার ব্যাক",
+                    description:
+                      "আরিফ আজাদের নতুন বই ‘জীবন যেখানে যেমন’। এবারের বইটি এমন কিছু জীবন ঘনিষ্ঠ গল্প শোনাবে, যা আপনার আমার সবার জীবনের গল্প। কিন্তু অবচেতন মনে সেগুলো আমরা এড়িয়ে চলি। গল্পগুলো আমাদের ভাবাবে। জীবন নিয়ে নতুন করে ভাবতে শেখাবে। উদ্বুদ্ধ করবে জীবন নিয়ে আমাদের স্বপ্নগুলো নতুন করে গড়তে। জাগতিক ব্যস্ততার জাঁতাকলে পিষ্ট হওয়া হৃদয়ে ঘটাবে নতুন জীবনের সঞ্চার। এমন কিছু গল্পও এবার থাকবে, যেগুলো আমরা চাই না কারও জীবনে আসুক। তবে প্রতিটি গল্পই আমাদের বাধ্য করবে থমকে দাঁড়াতে, কতোবার যে চোখযুগল ঝাপসা হয়ে আসবে ইয়াত্তা নেই। জীবন যেখানে যেমন।",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                            slug: "arif-azad",
+                          },
+                        },
+                      ],
+                    },
+                    categories: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ইসলামী সাহিত্য",
+                            slug: "islami-sahitto",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
               ],
             },
           },
@@ -295,7 +364,7 @@ export const auhtor = {
                     price: 240,
                     discountprice: 120,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675092790/salahaat-images/%E0%A6%86%E0%A6%AE%E0%A6%BF_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%96%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%AE_nbwozr.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675689799/salahaat/books/%E0%A6%86%E0%A6%AE%E0%A6%BF_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%96%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%AE_c8jriy.jpg",
                     slug: "ami-jodi-pakhi-hotam",
                     publication: "মাকতাবাতুল আযহার",
                     extradetails: null,
@@ -317,6 +386,51 @@ export const auhtor = {
                           attributes: {
                             name: "ইসলামী জ্ঞান চর্চা",
                             slug: "islami-gan-corcha",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          attributes: {
+            name: "লস্ট মডেস্টি ব্লগ",
+            slug: "lost-modesty-blog",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "মুক্ত বাতাসের খোঁজে",
+                    price: 230,
+                    discountprice: null,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675689799/salahaat/books/%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4_%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0_%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C%E0%A7%87_fibobm.jpg",
+                    slug: "mukto-bataser-khoje",
+                    publication: "ইলম হাউজ পাবলিকেশন",
+                    extradetails: "রিভিউ লেখক : Nabil Zawad",
+                    description:
+                      "পর্নোগ্রাফি…. ইতস্তত বোধ করবেন না, এদিক ওদিক তাকিয়ে স্ক্রল ডাউন করে চলে যাবেন না। নিজেরই ক্ষতি করবেন। তো যা বলছিলাম, বইটা লিখা পর্নোগ্রাফি নিয়ে, পর্নাসক্তি নিয়ে। সাইবার ক্রাইম, ধর্ষণ, হত্যা, সমকামিতা, অজাচার, মানব পাচার, পরিবার ভাঙন,মাদকাসক্তি – এমন হাজারো বীভৎস গল্পের মূল হোতা এই মরনব্যাধি কীভাবে আমাদের উসখুস করা নিষ্পাপ চেহারাগুলোকে চুপেচুপে স্রেফ গিলে ফেলছে তা নিয়ে লিখা, ব্যক্তি-পরিবার-সমাজ কীভাবে এই নীল দুনিয়ার ক্ষুধার্ত লালসার লুপে পড়ে অক্সিজেনের অভাবে হাঁসফাঁস করে ডুবে মরছে তা নিয়ে লিখা। এ মৃত্যু মানসিক মৃত্যু, শারীরিক মৃত্যু। কষ্টহীন মৃত্যু হলেও হত, নাহ এ তীব্র যন্ত্রণা দিয়ে যায়। এতটুকু লেখা বইটার ১২৫ পৃষ্ঠা ব্যাপী ‘অনিবার্য যত ক্ষয়’ অধ্যায়টা উঁকি মেরে দেখানো অনেকটা। ‘‘সামান্য বিনোদন’’, ‘‘এটা একটা আর্ট’’, ‘‘আমি তো কারো ক্ষতি করছি না, বরং নিজেকে সংযত রাখছি অন্য কারোর সাথে এমন না করে’’- ভদ্র মুখোশের আড়ালে এইসব অজুহাত যে সমাজে কত পশু তৈরি করেছে, করে চলছে এর সামান্য ধারনা পাবেন এই অধ্যায়ে।আমি পাঠক সমাজকে সাবধান করে দিচ্ছি, অনেক লিখাই হজম করতে কষ্ট হবে, দুনিয়ার কদর্য রূপ সম্পর্কে খুব কমই সচেতন, খুব কমই সতর্ক আমরা এটা নতুন করে উপলব্ধি করবেন এই বইয়ে। বইটা পড়া শুরু করে মাঝপথে এসে দম বন্ধ হয়ে আসছে বলে মনে হলেও প্লিজ চলে যাবেন না। আপনি মুখ লুকালেও সত্য কখনো বদলাবে না, সব সমস্যা আপনাআপনি ঠিক হয়ে যাবে না। তাহলে কী করবেন? বইটার পরের ১০৬ পেজ ধরে লিখা ‘বৃত্তের বাইরে’ অধ্যায়টি ভালোভাবে পড়ুন, মনোযোগ দিয়ে। লেখক খুব যত্ন নিয়ে ভেঙে ভেঙে আলোচনা করেছেন কীভাবে এই অন্ধকার, স্যাঁতসেঁতে, নোংরা, গ্লানিময় জীবন থেকে বের হয়ে আসা যায়। এটা সবার জানা খুব দরকার। আপনি নিজে বা আপনার পরিবারের সন্তান/ ভাই/ বোন হয়তো এই মরণব্যাধিতে আসক্ত কিংবা আপনার স্বামী বা স্ত্রী! কীভাবে সামলাবেন পরিস্থিতি? কীভাবে নিজে বের হয়ে আসবেন? এসবের উত্তর দেয়া আছে এখানে। প্রয়োজন শুধু মনের জেদ আর আপ্রাণ চেষ্টা করে যাওয়া। বইয়ের একদম শেষের লেখাটা (‘মুক্ত বাতাসের খোঁজে’) অনেক অনুপ্রেরণা দিবে।",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "লস্ট মডেস্টি ব্লগ",
+                            slug: "lost-modesty-blog",
+                          },
+                        },
+                      ],
+                    },
+                    categories: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আত্মশুদ্ধি ও অনুপ্রেরণা",
+                            slug: "attoshuddhi-o-onuprerona",
                           },
                         },
                       ],

@@ -3,7 +3,7 @@ import Book from "./Book";
 
 const Booksec = ({ title, data, offerChip = false }) => {
   return (
-    <div className="flex flex-col my-4">
+    <div className="flex flex-col my-4 bg-white rounded shadow-sm">
       {title ? (
         <h2 className="text-2xl font-bold leading-10 pl-4 py-2">{title}</h2>
       ) : null}
