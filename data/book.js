@@ -15,6 +15,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%A8%E0%A6%AC%E0%A6%BF_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA_upeobh.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা:  144, কভার : পেপার ব্যাক",
+            tags: "nobi jiboner golpo, nobir jiboner golpo, arif ajad",
             authors: {
               data: [
                 {
@@ -50,6 +51,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_fhzvro.jpg",
             publication: "গার্ডিয়ান পাবলিকেশনস",
             extradetails: "পৃষ্ঠাসংখ্যা: 168 , হার্ড কভার",
+            tags: "paradoxical sajid, paradexical sazid, arif azad",
             authors: {
               data: [
                 {
@@ -91,6 +93,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_gfrmfl.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: 211, কভার : পেপার ব্যাক",
+            tags: "golpo gulo onno rokom, golpogulo onnorokom, arif azad",
             authors: {
               data: [
                 {
@@ -132,6 +135,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%86%E0%A6%B0%E0%A6%9C_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A7%87_iwrzny.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: , কভার : পেপার ব্যাক",
+            tags: "aroj ali somipe, aroz ali somipe, arif ajad",
             authors: {
               data: [
                 {
@@ -167,6 +171,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%8F%E0%A6%AC%E0%A6%82_%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE_vkdpc4.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: null,
+            tags: "ma ma ma ebong baba, ma ma ma baba, arif azad",
             authors: {
               data: [
                 {
@@ -202,6 +207,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_hcfhgm.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা সংখ্যা: 225, কভার : পেপার ব্যাক",
+            tags: "paradoxical sajid 2, paradexical sazid 2, arif azad",
             authors: {
               data: [
                 {
@@ -249,6 +255,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_yo8g2t.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: null,
+            tags: "bela phurabar age, arif ajad, bela furabar age",
             authors: {
               data: [
                 {
@@ -290,6 +297,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675690164/salahaat/books/%E0%A6%86%E0%A6%AE%E0%A6%BF_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%96%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%AE_mxpb7k.jpg",
             publication: "মাকতাবাতুল আযহার",
             extradetails: null,
+            tags: "ami jodi pakhi hotam,muhammed atikullah",
             authors: {
               data: [
                 {
@@ -325,6 +333,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675690164/salahaat/books/%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4_%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0_%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C%E0%A7%87_kq0ba3.jpg",
             publication: "ইলম হাউজ পাবলিকেশন",
             extradetails: "রিভিউ লেখক : Nabil Zawad",
+            tags: "mukto bataser khoje, lord modesty blog",
             authors: {
               data: [
                 {
@@ -361,6 +370,7 @@ export const book = {
             publication: "সমকালীন প্রকাশন",
             extradetails:
               "পৃষ্ঠা : 200, কভার : পেপার ব্যাক, সংস্করণ : 1st Published, 2022",
+            tags: "ebar vinno kichu hok, arif ajad",
             authors: {
               data: [
                 {
@@ -396,6 +406,7 @@ export const book = {
               "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A7%87_%E0%A6%AF%E0%A7%87%E0%A6%AE%E0%A6%A8_yktcyq.jpg",
             publication: "সমকালীন প্রকাশন",
             extradetails: "পৃষ্ঠা : 152, কভার : পেপার ব্যাক",
+            tags: "jibon-jekhane-jemon , arif azad",
             authors: {
               data: [
                 {
@@ -432,6 +443,7 @@ export const book = {
             publication: "মুহাম্মদ পাবলিকেশন",
             extradetails:
               "সম্পাদনা : সালমান মোহাম্মদ\nশরয়ি সম্পাদনা : সাইফুল্লাহ আল মাহমুদ\nপৃষ্ঠা : ১৯২",
+            tags: "ses bikeler roddur, roddro moyri",
             authors: {
               data: [
                 {
@@ -474,6 +486,7 @@ export const book = {
             publication: "মুহাম্মদ পাবলিকেশন",
             extradetails:
               "ভাষান্তর : সাইফুল্লাহ আল মাহমুদ\nসম্পাদনা : উস্তাদ আকরাম হোসাইন\nবানান সমন্বয় : মুহাম্মদ পাবলিকেশন সম্পাদনা পর্ষদ\nপৃষ্ঠা : ২৭২\nকভার: হার্ড কভার",
+            tags: "salafder chokhe duniya, imam ibn abid dunya",
             authors: {
               data: [
                 {
@@ -510,6 +523,7 @@ export const book = {
             publication: "মুহাম্মদ পাবলিকেশন",
             extradetails:
               "ভাষা সম্পাদনা ও বানান : আহসান ইলিয়াস ও সালমান মোহাম্মদ",
+            tags: "jiboner sonali path, saleh ahmed shami",
             authors: {
               data: [
                 {
@@ -546,6 +560,7 @@ export const book = {
             publication: "মুহাম্মদ পাবলিকেশন",
             extradetails:
               "অনুবাদক : আবদুন নুর সিরাজি\nসম্পাদনা : মুফতি তারেকুজ্জামান\nপৃষ্ঠা : ১৪৪",
+            tags: "muminer binodon, muhammad saleh al munajjid",
             authors: {
               data: [
                 {

@@ -1,6 +1,7 @@
 query getAuthors {
   authors(pagination: { limit: 10000 }) {
     data {
+      id
       attributes {
         name
         slug
