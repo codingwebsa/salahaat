@@ -1,6 +1,7 @@
 // component
 import {
   FloatingCart,
+  FloatingMessenger,
   Footer,
   Header,
   Navbar,
@@ -37,7 +38,11 @@ const Layout = ({
         {/* footer */}
         {footer && <Footer />}
         {/* floating components */}
-        {cartItems.length > 0 && floating && <FloatingCart />}
+        {cartItems.length > 0 ? (
+          floating && <FloatingCart />
+        ) : (
+          <FloatingMessenger />
+        )}
       </div>
     </>
   );

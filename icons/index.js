@@ -21,6 +21,7 @@ import {
   BsCaretDownFill as DownIcon,
   BsPen as PenIcon,
   BsArrowRightShort as RightArrowIcon,
+  BsMessenger as MessengerIcon,
 } from "react-icons/bs";
 import { MdOutlineLocalOffer as OfferIcon } from "react-icons/md";
 import { TbTruckDelivery as TruckIcon } from "react-icons/tb";
@@ -47,4 +48,5 @@ export {
   RightIcon,
   PolygonIcon,
   RightArrowIcon,
+  MessengerIcon,
 };

@@ -13,6 +13,7 @@ import QuickCart from "./QuickCart/QuickCart";
 import OrderForm from "./Order/OrderForm";
 import Footer from "./Footer/Footer";
 import FloatingCart from "./Floting/Cart";
+import FloatingMessenger from "./Floting/Messenger";
 import DiscountSec from "./Sections/Discount";
 import PopularSearches from "./Sections/PopularSearches";
 import CategoryView from "./Sections/CategoryView";
@@ -33,6 +34,7 @@ export {
   OrderForm,
   Footer,
   FloatingCart,
+  FloatingMessenger,
   DiscountSec,
   PopularSearches,
   CategoryView,
