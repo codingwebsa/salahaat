@@ -10,6 +10,7 @@ function Messenger() {
         <Link
           href="https://m.me/sa.salahaat"
           target="_blank"
+          aria-label="floating-messenger-icon"
           className="relative flex flex-col items-center"
         >
           <span>

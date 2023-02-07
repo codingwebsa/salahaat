@@ -40,7 +40,7 @@ const Book = ({ data, offerChip }) => {
           <div className="flex gap-2 items-center mt-1">
             {discountprice ? (
               <>
-                <span className="text-lg text-baseGreen font-semibold">
+                <span className="text-lg text-emerald-600 font-semibold">
                   <Symble /> {discountprice}
                 </span>
                 <s className="text-sm text-gray-600">
@@ -48,7 +48,7 @@ const Book = ({ data, offerChip }) => {
                 </s>
               </>
             ) : (
-              <span className="text-lg font-semibold text-baseGreen">
+              <span className="text-lg font-semibold text-emerald-600">
                 <Symble /> {price}
               </span>
             )}

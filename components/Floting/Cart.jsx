@@ -10,7 +10,11 @@ const FloatingCart = () => {
   return (
     <>
       <div className="inline-block fixed bottom-[12vh] right-4 bg-purple-800 p-4 rounded-full shadow-lg z-[99] animate-bounce cursor-pointer">
-        <Link href="/cart" className="flex flex-col items-center">
+        <Link
+          href="/cart"
+          aria-label="floating-cart-button"
+          className="flex flex-col items-center"
+        >
           <span>
             <CartIcon size={27} className="text-white" />
           </span>

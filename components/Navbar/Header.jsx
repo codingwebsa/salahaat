@@ -53,7 +53,7 @@ const Header = () => {
             </Link>
           ) : (
             <Link href="/account">
-              <button className="flex gap-2 items-center py-2.5 px-4 bg-emerald-500 rounded-md text-white">
+              <button className="flex gap-2 items-center py-2.5 px-4 bg-emerald-600 rounded-md text-white">
                 <span>
                   <UserIcon size={20} />
                 </span>

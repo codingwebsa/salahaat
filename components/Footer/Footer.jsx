@@ -72,7 +72,7 @@ const Footer = () => {
 
           <p className="text-sm text-center text-gray-600">
             © Copyright 2021, All Rights Reserved by{" "}
-            <span className="text-baseGreen font-bold underline decoration-wavy">
+            <span className="text-emerald-700 font-bold underline decoration-wavy">
               Codingsa
             </span>
           </p>
