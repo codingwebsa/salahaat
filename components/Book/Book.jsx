@@ -27,10 +27,12 @@ const Book = ({ data, offerChip }) => {
             className="rounded-md mb-2 hover:brightness-90 h-60 object-cover"
           />
           {/* name */}
-          <h2 className="font-hindSiliguri text-md font-semibold">{name}</h2>
+          <h2 className="font-hindSiliguri text-md font-semibold line-clamp-2">
+            {name}
+          </h2>
           {/* author */}
           {authors.data?.[0] && (
-            <p className="text-xs text-gray-600">
+            <p className="text-xs text-gray-600 line-clamp-1">
               {authors.data[0].attributes.name}
             </p>
           )}

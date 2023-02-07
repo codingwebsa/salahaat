@@ -3,6 +3,7 @@ export const category = {
     categories: {
       data: [
         {
+          id: "1",
           attributes: {
             name: "সীরাতে রাসূল (সা.)",
             slug: "sirat-rasul-sa",
@@ -47,6 +48,7 @@ export const category = {
           },
         },
         {
+          id: "2",
           attributes: {
             name: "সংশয় নিরস্‌ ",
             slug: "songsoy-niros",
@@ -143,6 +145,7 @@ export const category = {
           },
         },
         {
+          id: "3",
           attributes: {
             name: "ইসলামি আদর্শ ও মতবাদ",
             slug: "islami-adorsho-o-motobad",
@@ -273,6 +276,7 @@ export const category = {
           },
         },
         {
+          id: "4",
           attributes: {
             name: "ইসলামী জ্ঞান চর্চা",
             slug: "islami-gan-corcha",
@@ -357,6 +361,7 @@ export const category = {
           },
         },
         {
+          id: "5",
           attributes: {
             name: "পরিবার ও সামাজিক জীবন",
             slug: "paribarik-o-samagik-jibon",
@@ -407,6 +412,7 @@ export const category = {
           },
         },
         {
+          id: "6",
           attributes: {
             name: "আখলাক",
             slug: "akhlak",
@@ -451,6 +457,7 @@ export const category = {
           },
         },
         {
+          id: "7",
           attributes: {
             name: "নাস্তিকতা অপনোদন",
             slug: "nastikota-aponodon",
@@ -507,6 +514,7 @@ export const category = {
           },
         },
         {
+          id: "8",
           attributes: {
             name: "অন্ধকার থেকে আলোতে",
             slug: "ondhokar-theke-alote",
@@ -557,6 +565,7 @@ export const category = {
           },
         },
         {
+          id: "9",
           attributes: {
             name: "আত্মশুদ্ধি ও অনুপ্রেরণা",
             slug: "attoshuddhi-o-onuprerona",
@@ -711,6 +720,7 @@ export const category = {
           },
         },
         {
+          id: "10",
           attributes: {
             name: "ইসলামী সাহিত্য",
             slug: "islami-sahitto",
@@ -796,6 +806,7 @@ export const category = {
           },
         },
         {
+          id: "11",
           attributes: {
             name: "ইসলামে নারী",
             slug: "islame-nari",
@@ -847,6 +858,7 @@ export const category = {
           },
         },
         {
+          id: "12",
           attributes: {
             name: "ইসলামী ব্যক্তিত্ব",
             slug: "islami-baktitto",
@@ -892,6 +904,7 @@ export const category = {
           },
         },
         {
+          id: "13",
           attributes: {
             name: "ফিকাহ ও ফতওয়া",
             slug: "fikah-o-fotoya",
@@ -943,6 +956,7 @@ export const category = {
           },
         },
         {
+          id: "14",
           attributes: {
             name: "হালাল হারাম",
             slug: "halal-haram",

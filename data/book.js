@@ -3,6 +3,7 @@ export const book = {
     books: {
       data: [
         {
+          id: "1",
           attributes: {
             name: "নবি জীবনের গল্প",
             slug: "nobi-jiboner-golpo",
@@ -37,6 +38,7 @@ export const book = {
           },
         },
         {
+          id: "2",
           attributes: {
             name: "প্যারাডক্সিক্যাল সাজিদ",
             slug: "paradoxical-sajid-1",
@@ -77,6 +79,7 @@ export const book = {
           },
         },
         {
+          id: "3",
           attributes: {
             name: "গল্পগুলো অন্যরকম",
             slug: "golpogulo-onno-rokom",
@@ -117,6 +120,7 @@ export const book = {
           },
         },
         {
+          id: "4",
           attributes: {
             name: "আরজ আলী সমীপে",
             slug: "aroj-ali-somipe",
@@ -151,6 +155,7 @@ export const book = {
           },
         },
         {
+          id: "5",
           attributes: {
             name: "মা, মা, মা এবং বাবা",
             slug: "ma-ma-ma-ebong-baba",
@@ -185,6 +190,7 @@ export const book = {
           },
         },
         {
+          id: "6",
           attributes: {
             name: "প্যারাডক্সিক্যাল সাজিদ ২",
             slug: "paradoxical-sajid-2",
@@ -231,6 +237,7 @@ export const book = {
           },
         },
         {
+          id: "7",
           attributes: {
             name: "বেলা ফুরাবার আগে",
             slug: "bela-furabar-age",
@@ -271,6 +278,7 @@ export const book = {
           },
         },
         {
+          id: "8",
           attributes: {
             name: "আমি যদি পাখি হতাম",
             slug: "ami-jodi-pakhi-hotam",
@@ -305,6 +313,7 @@ export const book = {
           },
         },
         {
+          id: "9",
           attributes: {
             name: "মুক্ত বাতাসের খোঁজে",
             slug: "mukto-bataser-khoje",
@@ -339,6 +348,7 @@ export const book = {
           },
         },
         {
+          id: "10",
           attributes: {
             name: "এবার ভিন্ন কিছু হোক",
             slug: "ebar-vinno-kichu-hok",
@@ -374,6 +384,7 @@ export const book = {
           },
         },
         {
+          id: "11",
           attributes: {
             name: "জীবন যেখানে যেমন",
             slug: "jibon-jekhane-jemon",
@@ -408,6 +419,7 @@ export const book = {
           },
         },
         {
+          id: "12",
           attributes: {
             name: "শেষ বিকেলের রোদ্দুর",
             slug: "sesh-bikeler-roddur",
@@ -449,6 +461,7 @@ export const book = {
           },
         },
         {
+          id: "13",
           attributes: {
             name: "সালাফদের চোখে দুনিয়া",
             slug: "salafder-chokhe-duniya",
@@ -484,6 +497,7 @@ export const book = {
           },
         },
         {
+          id: "14",
           attributes: {
             name: "জীবনের সোনালি পাঠ",
             slug: "jiboner-sonali-path",
@@ -519,6 +533,7 @@ export const book = {
           },
         },
         {
+          id: "15",
           attributes: {
             name: "মুমিনের বিনোদন",
             slug: "muminer-binodon",

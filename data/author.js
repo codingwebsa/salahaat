@@ -3,6 +3,7 @@ export const auhtor = {
     authors: {
       data: [
         {
+          id: "1",
           attributes: {
             name: "আরিফ আজাদ",
             slug: "arif-azad",
@@ -352,6 +353,7 @@ export const auhtor = {
           },
         },
         {
+          id: "2",
           attributes: {
             name: "মুহাম্মাদ আতীক উল্লাহ",
             slug: "muhammed-atikullah",
@@ -397,6 +399,7 @@ export const auhtor = {
           },
         },
         {
+          id: "3",
           attributes: {
             name: "লস্ট মডেস্টি ব্লগ",
             slug: "lost-modesty-blog",
@@ -442,6 +445,7 @@ export const auhtor = {
           },
         },
         {
+          id: "4",
           attributes: {
             name: "রৌদ্রময়ীরা",
             slug: "rodro-moyira",
@@ -494,6 +498,7 @@ export const auhtor = {
           },
         },
         {
+          id: "5",
           attributes: {
             name: "ইমাম ইবনু আবিদ দুনইয়া",
             slug: "imam-ibn-abid-duniya",
@@ -540,6 +545,7 @@ export const auhtor = {
           },
         },
         {
+          id: "6",
           attributes: {
             name: "সালেহ আহমদ শামী",
             slug: "saleh-ahmed-shami",
@@ -586,6 +592,7 @@ export const auhtor = {
           },
         },
         {
+          id: "7",
           attributes: {
             name: "মুহাম্মাদ সালেহ আল মুনাজ্জিদ",
             slug: "muhammed-saleh-al-minajjid",

@@ -17,6 +17,8 @@ const HomePage = () => {
   const arifAzadsBook = authorData.filter(
     (x) => x.attributes.slug === "arif-azad"
   )[0];
+
+  const recentBooks = data.reverse();
   return (
     <>
       <Head>
@@ -51,7 +53,7 @@ const HomePage = () => {
         <PopularSearches title />
         <CarouselCom />
         {/* recent */}
-        <Booksec title="Recent Books" data={data?.slice(0, 6)} />
+        <Booksec title="Recent Books" data={recentBooks?.slice(0, 8)} />
         {/* category view */}
         <hr className="my-3" />
         <CategoryView />
