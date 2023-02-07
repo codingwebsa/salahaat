@@ -30,6 +30,7 @@ const SearchComponent = () => {
           />
           <button
             type="submit"
+            aria-label="search-button"
             className="absolute right-0 bg-baseGreen p-3 shadow-lg shadow-[#00c9a763] text-light rounded-full cursor-pointer active:scale-[.95]"
             onClick={handleSearch}
           >
