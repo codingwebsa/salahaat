@@ -2,7 +2,7 @@ import { book as impBookData } from "./book";
 import { auhtor as impAuthorData } from "./author";
 import { category as impCategoryData } from "./category";
 
-const bookData = impBookData.data.books.data;
+const bookData = impBookData.data.books.data.reverse();
 const authorData = impAuthorData.data.authors.data;
 const categoryData = impCategoryData.data.categories.data;
 
