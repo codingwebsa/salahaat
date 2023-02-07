@@ -4,11 +4,11 @@ import Image from "next/image";
 // component
 import { Layout } from "@/components";
 // lib
-import { getAutors } from "@/lib";
+import { authorData as data } from "@/data";
 // assets
 import ImgPlaceholder from "@/assets/img-placeholder.png";
 
-const AuthorPage = ({ data }) => {
+const AuthorPage = () => {
   return (
     <>
       <Layout searchCom={true}>
@@ -44,13 +44,3 @@ const AuthorPage = ({ data }) => {
 };
 
 export default AuthorPage;
-
-export async function getStaticProps() {
-  const data = await getAutors();
-
-  return {
-    props: {
-      data,
-    },
-  };
-}

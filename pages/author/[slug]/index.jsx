@@ -2,7 +2,7 @@
 import Head from "next/head";
 // components
 import { Booksec, Layout, SearchComponent } from "@/components";
-import { getAutors } from "@/lib";
+import { authorData } from "@/data";
 
 const AuthorSingle = ({ data, name }) => {
   return (
@@ -21,8 +21,7 @@ const AuthorSingle = ({ data, name }) => {
 export default AuthorSingle;
 
 export const getStaticPaths = async () => {
-  const data = await getAutors();
-  let paths = data.map((d) => ({ params: { slug: d.attributes.slug } }));
+  let paths = authorData.map((d) => ({ params: { slug: d.attributes.slug } }));
   return {
     paths: paths,
     fallback: false,
@@ -32,14 +31,13 @@ export const getStaticPaths = async () => {
 export async function getStaticProps({ params }) {
   const { slug } = params;
 
-  const data = await getAutors();
 
-  const authorData = data.find((x, _i) => x.attributes.slug == slug);
+  const data = authorData.find((x, _i) => x.attributes.slug == slug);
 
   return {
     props: {
-      data: authorData.attributes.books.data,
-      name: authorData.attributes.name,
+      data: data.attributes.books.data,
+      name: data.attributes.name,
     },
   };
 }

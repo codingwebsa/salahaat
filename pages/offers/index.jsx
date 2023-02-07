@@ -1,5 +1,5 @@
 import { Booksec, Layout } from "@/components";
-import { getData } from "@/lib";
+import { bookData } from "@/data";
 
 const OfferPage = ({ data }) => {
   return (
@@ -16,8 +16,7 @@ const OfferPage = ({ data }) => {
 export default OfferPage;
 
 export async function getStaticProps() {
-  const data = await getData();
-  const modifiedData = data.filter(
+  const modifiedData = bookData.filter(
     (d, _i) => d.attributes.discountprice !== null
   );
 
