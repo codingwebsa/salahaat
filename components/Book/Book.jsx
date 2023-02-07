@@ -21,8 +21,8 @@ const Book = ({ data, offerChip }) => {
           {/* image */}
           <Image
             src={imgurl}
-            width={480}
-            height={300}
+            width={200}
+            height={250}
             alt={name}
             className="rounded-md mb-2 hover:brightness-90 h-60 object-cover"
           />

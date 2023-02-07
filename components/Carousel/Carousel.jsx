@@ -44,9 +44,9 @@ const CarouselCom = () => {
             <Image
               alt="banner1"
               src={Banner1}
-              width={960}
-              height={480}
-              quality={70}
+              width={439}
+              height={220}
+              quality={50}
               property={true}
             />
           </div>
@@ -54,9 +54,9 @@ const CarouselCom = () => {
             <Image
               alt="banner2"
               src={Banner2}
-              width={960}
-              height={480}
-              quality={70}
+              width={439}
+              height={220}
+              quality={50}
               property={true}
             />
           </div>
@@ -64,9 +64,9 @@ const CarouselCom = () => {
             <Image
               alt="banner3"
               src={Banner3}
-              width={960}
-              height={480}
-              quality={70}
+              width={439}
+              height={220}
+              quality={50}
               property={true}
             />
           </div>
@@ -74,9 +74,9 @@ const CarouselCom = () => {
             <Image
               alt="banner4"
               src={Banner4}
-              width={960}
-              height={480}
-              quality={70}
+              width={439}
+              height={220}
+              quality={50}
               property={true}
             />
           </div>
