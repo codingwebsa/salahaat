@@ -57,7 +57,7 @@ const HomePage = () => {
         <CategoryView />
         {/* islamic adorsho o motobad */}
         <Booksec
-          title="আরিফ আজাদ"
+          title={`Books by আরিফ আজাদ`}
           data={arifAzadsBook?.attributes.books.data.slice(0, 6)}
         />
         {/* discount */}

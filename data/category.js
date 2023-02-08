@@ -17,7 +17,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%A8%E0%A6%AC%E0%A6%BF_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA_upeobh.jpg",
                     slug: "nobi-jiboner-golpo",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -28,7 +36,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675860125/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%B9%E0%A7%83%E0%A6%A6%E0%A7%9F%E0%A6%9B%E0%A7%8B%E0%A7%9F%E0%A6%BE_%E0%A7%A8_xmjkcw.jpg",
                     slug: "golpogulo-hridoychoya-2",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. মুহাম্মদ ইবনে আবদুর রহমান আরিফী",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -50,7 +66,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_fhzvro.jpg",
                     slug: "paradoxical-sajid-1",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -61,7 +85,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_hcfhgm.jpg",
                     slug: "paradoxical-sajid-2",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -83,7 +115,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_fhzvro.jpg",
                     slug: "paradoxical-sajid-1",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -94,7 +134,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%86%E0%A6%B0%E0%A6%9C_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%AA%E0%A7%87_iwrzny.jpg",
                     slug: "aroj-ali-somipe",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -105,7 +153,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_hcfhgm.jpg",
                     slug: "paradoxical-sajid-2",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -127,7 +183,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_gfrmfl.jpg",
                     slug: "golpogulo-onno-rokom",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -138,7 +202,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675690164/salahaat/books/%E0%A6%86%E0%A6%AE%E0%A6%BF_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%96%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%AE_mxpb7k.jpg",
                     slug: "ami-jodi-pakhi-hotam",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "মুহাম্মাদ আতীক উল্লাহ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -160,7 +232,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%95%E0%A6%AE_gfrmfl.jpg",
                     slug: "golpogulo-onno-rokom",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -182,7 +262,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%AE%E0%A6%BE_%E0%A6%8F%E0%A6%AC%E0%A6%82_%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE_vkdpc4.jpg",
                     slug: "ma-ma-ma-ebong-baba",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -204,7 +292,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A1%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2_%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6_%E0%A7%A8_hcfhgm.jpg",
                     slug: "paradoxical-sajid-2",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -226,7 +322,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_yo8g2t.jpg",
                     slug: "bela-furabar-age",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -248,7 +352,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE_%E0%A6%AB%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%97%E0%A7%87_yo8g2t.jpg",
                     slug: "bela-furabar-age",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -259,7 +371,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675690164/salahaat/books/%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4_%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0_%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C%E0%A7%87_kq0ba3.jpg",
                     slug: "mukto-bataser-khoje",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "লস্ট মডেস্টি ব্লগ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -270,7 +390,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688696/salahaat/books/%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0_%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A8_%E0%A6%95%E0%A6%BF%E0%A6%9B%E0%A7%81_%E0%A6%B9%E0%A7%8B%E0%A6%95_radebq.jpg",
                     slug: "ebar-vinno-kichu-hok",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -281,7 +409,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675743869/salahaat/books/%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%A6%E0%A7%87%E0%A6%B0_%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87_%E0%A6%A6%E0%A7%81%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE_xmrbab.jpg",
                     slug: "salafder-chokhe-duniya",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ইমাম ইবনু আবিদ দুনইয়া",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -292,7 +428,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675859800/salahaat/books/%E0%A6%97%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A7%8B_%E0%A6%B9%E0%A7%83%E0%A6%A6%E0%A7%9F%E0%A6%9B%E0%A7%8B%E0%A6%81%E0%A7%9F%E0%A6%BE_lcrtvy.jpg",
                     slug: "golpogulo-hridoy-choya",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. মুহাম্মদ ইবনে আবদুর রহমান আরিফী",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -303,7 +447,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675860498/salahaat/books/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87%E0%A6%B0_%E0%A6%B9%E0%A7%87%E0%A6%AB%E0%A6%BE%E0%A6%9C%E0%A6%A4_-_%E0%A6%B8%E0%A6%AB%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%B0_%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0_xmypcq.jpg",
                     slug: "nojorer-hefajot-sofololar-hatiar",
-                    instock: false,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. শাইখ মাহমুদ মিসরি",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -325,7 +477,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675688695/salahaat/books/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A7%87%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A7%87_%E0%A6%AF%E0%A7%87%E0%A6%AE%E0%A6%A8_yktcyq.jpg",
                     slug: "jibon-jekhane-jemon",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফ আজাদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -336,7 +496,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675743549/salahaat/books/%E0%A6%B6%E0%A7%87%E0%A6%B7_%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0_%E0%A6%B0%E0%A7%8B%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B0_mgjcke.jpg",
                     slug: "sesh-bikeler-roddur",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "রৌদ্রময়ীরা",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -358,7 +526,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675743549/salahaat/books/%E0%A6%B6%E0%A7%87%E0%A6%B7_%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0_%E0%A6%B0%E0%A7%8B%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B0_mgjcke.jpg",
                     slug: "sesh-bikeler-roddur",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "রৌদ্রময়ীরা",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -380,7 +556,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675744133/salahaat/books/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A7%8B%E0%A6%A8%E0%A6%BE%E0%A6%B2%E0%A6%BF_%E0%A6%AA%E0%A6%BE%E0%A6%A0_ovlncf.jpg",
                     slug: "jiboner-sonali-path",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "সালেহ আহমদ শামী",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
                 {
@@ -391,7 +575,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675859662/salahaat/books/%E0%A6%B8%E0%A7%81%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%A8_%E0%A6%B8%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A7%9F%E0%A6%AE%E0%A6%BE%E0%A6%A8_SULEIMAN_THE_MAGNIFICENT_whoyjy.jpg",
                     slug: "sultan-sulaiman-the-magnificent",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "মাওলানা কাজী আবুল কালাম সিদ্দীক",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -413,7 +605,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675744390/salahaat/books/%E0%A6%AE%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8B%E0%A6%A6%E0%A6%A8_vvktwz.jpg",
                     slug: "muminer-binodon",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "মুহাম্মাদ সালেহ আল মুনাজ্জিদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -435,7 +635,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675744390/salahaat/books/%E0%A6%AE%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8B%E0%A6%A6%E0%A6%A8_vvktwz.jpg",
                     slug: "muminer-binodon",
-                    instock: true,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "মুহাম্মাদ সালেহ আল মুনাজ্জিদ",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],
@@ -457,7 +665,15 @@ export const category = {
                     imgurl:
                       "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1675860498/salahaat/books/%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87%E0%A6%B0_%E0%A6%B9%E0%A7%87%E0%A6%AB%E0%A6%BE%E0%A6%9C%E0%A6%A4_-_%E0%A6%B8%E0%A6%AB%E0%A6%B2%E0%A6%A4%E0%A6%BE%E0%A6%B0_%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0_xmypcq.jpg",
                     slug: "nojorer-hefajot-sofololar-hatiar",
-                    instock: false,
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. শাইখ মাহমুদ মিসরি",
+                          },
+                        },
+                      ],
+                    },
                   },
                 },
               ],

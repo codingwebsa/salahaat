@@ -31,7 +31,7 @@ const Book = ({ data, offerChip }) => {
             {name}
           </h2>
           {/* author */}
-          {authors.data?.[0] && (
+          {authors?.data?.[0] && (
             <p className="text-xs text-gray-600 line-clamp-1">
               {authors.data[0].attributes.name}
             </p>
