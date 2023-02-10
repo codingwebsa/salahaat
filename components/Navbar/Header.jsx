@@ -1,5 +1,6 @@
 // nextjs
 import Image from "next/image";
+import Link from "next/link";
 import localFont from "@next/font/local";
 // assets
 import Logo from "@/assets/logo-transparent.png";
@@ -7,7 +8,7 @@ import Logo from "@/assets/logo-transparent.png";
 import { MenuIcon, UserIcon } from "@/icons";
 // context
 import { useGlobalContext } from "@/context/globalContext";
-import Link from "next/link";
+import { SearchComponent } from "@/components";
 
 // initialize font (Branch)
 const BranchFont = localFont({ src: "../../fonts/Branch.otf" });

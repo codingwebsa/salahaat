@@ -51,7 +51,7 @@ const HomePage = () => {
         <PopularSearches title />
         <CarouselCom />
         {/* recent */}
-        <Booksec title="Recent Books" data={data?.slice(0, 8)} />
+        <Booksec title="Recent Books" data={data?.slice(0, 12)} />
         {/* category view */}
         <hr className="my-3" />
         <CategoryView />

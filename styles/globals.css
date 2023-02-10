@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-::selection {
+* {
   user-select: none;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }

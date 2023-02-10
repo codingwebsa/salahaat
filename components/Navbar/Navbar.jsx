@@ -4,8 +4,8 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <section className="block fixed inset-x-0 bottom-0 z-10 bg-white shadow">
-        <div className="flex justify-between py-1 border-t-2 border-baseGreen rounded-t-xl">
+      <section className="block fixed inset-x-0 bottom-0 z-10 shadow">
+        <div className="flex justify-between py-1 border-t-2 bg-white max-w-md mx-auto border-baseGreen rounded-t-xl">
           <Link
             href="/"
             className="w-full focus:text-baseGreen hover:text-baseGreen inline-flex flex-col justify-center items-center text-center pt-2 pb-1"

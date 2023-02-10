@@ -17,7 +17,8 @@ const Layout = ({
   simpleHeader = false,
   footer = true,
   searchCom = false,
-  floating = true,
+  floatingCart = true,
+  floatingMessenger = false,
   children,
 }) => {
   const { sidebarOpen, cartItems } = useGlobalContext();
@@ -38,11 +39,8 @@ const Layout = ({
         {/* footer */}
         {footer && <Footer />}
         {/* floating components */}
-        {cartItems.length > 0 ? (
-          floating && <FloatingCart />
-        ) : (
-          <FloatingMessenger />
-        )}
+        {cartItems.length > 0 && floatingCart && <FloatingCart />}
+        {floatingMessenger && <FloatingMessenger />}
       </div>
     </>
   );

@@ -80,20 +80,20 @@ const BookPage = ({ data, recentBooks }) => {
       </Head>
       <Layout header={false} simpleHeader={true} navbar={false}>
         <SearchComponent />
-        <div className="mt-8 pb-3 px-4">
+        <div className="mt-8 pb-3 px-4 md:flex md:gap-4 md:pl-32">
           {/* ------image */}
           <div className="flex justify-center">
             <Image
               src={imgurl}
               width={500}
               height={300}
-              className="rounded-lg shadow-md w-[95%] h-80  object-cover"
+              className="rounded-lg shadow-md w-[100%] h-96  object-cover"
               alt={name}
               priority="true"
             />
           </div>
           {/* ------details */}
-          <div className="pt-8 flex flex-col gap-2">
+          <div className="pt-8 flex flex-col gap-2 md:max-w-2xl">
             <h1 className="text-lg font-bold">{name}</h1>
             {/* close details */}
             <div>
@@ -192,7 +192,7 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       data: bookData.attributes,
-      recentBooks: impBookData.slice(0, 8),
+      recentBooks: impBookData.slice(0, 12),
     },
   };
 };

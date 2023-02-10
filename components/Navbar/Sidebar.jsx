@@ -68,16 +68,17 @@ const Sidebar = ({ isOpen }) => {
               </Link>
             </li>
             <li onClick={closeSidebar}>
-              <button
+              <Link
+                href="/book"
                 type="button"
                 className="flex items-center w-full p-2 text-base font-normal text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100"
               >
                 <BookOpenIcon size={25} className="text-gray-600" />
                 <span className="flex-1 ml-3 text-left whitespace-nowrap">
-                  Book
+                  Books
                 </span>
                 <DownIcon />
-              </button>
+              </Link>
               {/* sub-category */}
               <ul className="py-2 space-y-2">
                 <li onClick={closeSidebar}>

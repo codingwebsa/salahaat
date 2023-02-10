@@ -46,7 +46,7 @@ const Cart = () => {
       <Head>
         <title>Cart</title>
       </Head>
-      <Layout footer={false} floating={false}>
+      <Layout footer={false} floatingCart={false}>
         <section class="h-screen bg-gray-100 py-12 sm:py-16 lg:py-20">
           <div class="mx-auto px-4 sm:px-6 lg:px-8 pb-20">
             <div class="flex items-center justify-center">
