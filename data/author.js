@@ -560,7 +560,7 @@ export const auhtor = {
                     price: 305,
                     discountprice: 213,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%AA%E0%A7%9C%E0%A7%8B_flamre.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%AA%E0%A7%9C%E0%A7%8B_flamre.webp",
                     slug: "poro",
                     authors: {
                       data: [
@@ -591,7 +591,7 @@ export const auhtor = {
                     price: 290,
                     discountprice: 212,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%87_%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0_%E0%A6%B0%E0%A6%AC_invnia.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%87_%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0_%E0%A6%B0%E0%A6%AC_invnia.webp",
                     slug: "tiniy-amar-rob",
                     authors: {
                       data: [
@@ -622,7 +622,7 @@ export const auhtor = {
                     price: 232,
                     discountprice: 162,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A7%81%E0%A6%B2_m4cqxf.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A7%81%E0%A6%B2_m4cqxf.webp",
                     slug: "taraful",
                     authors: {
                       data: [
@@ -653,7 +653,7 @@ export const auhtor = {
                     price: 186,
                     discountprice: 130,
                     imgurl:
-                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A7%8B_%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A7%80%E0%A6%B0_%E0%A6%AE%E0%A6%A4_rvbczd.jpg",
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A7%8B_%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A7%80%E0%A6%B0_%E0%A6%AE%E0%A6%A4_rvbczd.webp",
                     slug: "jibon-jodi-hoto-nari-sahabir-moto",
                     authors: {
                       data: [
@@ -677,7 +677,285 @@ export const auhtor = {
             slug: "dr-aid-al-karoni",
             imgurl: null,
             books: {
-              data: [],
+              data: [
+                {
+                  attributes: {
+                    name: "নবীজি ﷺ—যেমন ছিলেন তিনি",
+                    price: 278,
+                    discountprice: 195,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A8%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%BF_%EF%B7%BA_%E0%A6%AF%E0%A7%87%E0%A6%AE%E0%A6%A8_%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8_%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A6%BF_c2avjo.webp",
+                    slug: "nobiji-jemon-chilen-tini",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. আইদ আল কারণী",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "18",
+          attributes: {
+            name: "ড. খালিদ আবু শাদি",
+            slug: "dr-khalid-abu-shadi",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "জিলহজ্জের উপহার",
+                    price: 140,
+                    discountprice: 98,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%9C%E0%A6%BF%E0%A6%B2%E0%A6%B9%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A7%87%E0%A6%B0_%E0%A6%89%E0%A6%AA%E0%A6%B9%E0%A6%BE%E0%A6%B0_fk9gzf.webp",
+                    slug: "jilhojer-upohar",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. খালিদ আবু শাদি",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "19",
+          attributes: {
+            name: "শাইখ আব্দুল করীম বাক্কার",
+            slug: "shaikh-abdul-karim-bakkar",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "জীবন পথে সফল হতে",
+                    price: 232,
+                    discountprice: 162,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AA%E0%A6%A5%E0%A7%87_%E0%A6%B8%E0%A6%AB%E0%A6%B2_%E0%A6%B9%E0%A6%A4%E0%A7%87_uppwwk.webp",
+                    slug: "jibon-pothe-sofol-hote",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "শাইখ আব্দুল করীম বাক্কার",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "20",
+          attributes: {
+            name: "আল্লামা ইবনুল কায়্যিম জাওযিয়্যাহ রহ",
+            slug: "allama-ibnul-kayimi-jaojiyah-rh",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "খুশু-খুযু",
+                    price: 125,
+                    discountprice: 87,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%96%E0%A7%81%E0%A6%B6%E0%A7%81-%E0%A6%96%E0%A7%81%E0%A6%AF%E0%A7%81_exkovh.webp",
+                    slug: "khusu-khuju",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আল্লামা ইবনুল কায়্যিম জাওযিয়্যাহ রহ",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "21",
+          attributes: {
+            name: "শাইখ ইবরাহীম আস-সাকরান",
+            slug: "shaikh-ibrahim-as-sakran",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "কুরআনের সাথে হৃদয়ের কথা",
+                    price: 260,
+                    discountprice: 182,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%95%E0%A7%81%E0%A6%B0%E0%A6%86%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%BE%E0%A6%A5%E0%A7%87_%E0%A6%B9%E0%A7%83%E0%A6%A6%E0%A7%9F%E0%A7%87%E0%A6%B0_%E0%A6%95%E0%A6%A5%E0%A6%BE_jwbe81.webp",
+                    slug: "quraner-shathe-hridoyer-kotha",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "শাইখ ইবরাহীম আস-সাকরান",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "22",
+          attributes: {
+            name: "শাইখ বাহাউদ্দীন উকাইল",
+            slug: "shaikh-bahauddin-ukail",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "সালাফদের জীবনকথা",
+                    price: 330,
+                    discountprice: 224,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%A6%E0%A7%87%E0%A6%B0_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A6%95%E0%A6%A5%E0%A6%BE_uw6pbz.jpg",
+                    slug: "salafder-jibonkotha",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "শাইখ আব্দুল আযীয ইবনু নাসির",
+                          },
+                        },
+                        {
+                          attributes: {
+                            name: "শাইখ বাহাউদ্দীন উকাইল",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "23",
+          attributes: {
+            name: "শাইখ আব্দুল আযীয ইবনু নাসির",
+            slug: "shaikh-abdul-ajij-ibnu-nasir",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "সালাফদের জীবনকথা",
+                    price: 330,
+                    discountprice: 224,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AB%E0%A6%A6%E0%A7%87%E0%A6%B0_%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A6%95%E0%A6%A5%E0%A6%BE_uw6pbz.jpg",
+                    slug: "salafder-jibonkotha",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "শাইখ আব্দুল আযীয ইবনু নাসির",
+                          },
+                        },
+                        {
+                          attributes: {
+                            name: "শাইখ বাহাউদ্দীন উকাইল",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "24",
+          attributes: {
+            name: "আফরোজা হাসান",
+            slug: "afroja-hasan",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "সুখের নাটাই",
+                    price: 160,
+                    discountprice: 112,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%B8%E0%A7%81%E0%A6%96%E0%A7%87%E0%A6%B0_%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A6%BE%E0%A6%87_vo9cbs.jpg",
+                    slug: "shukher-natai",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আফরোজা হাসান",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "25",
+          attributes: {
+            name: "আফিফা আবেদীন সাওদা",
+            slug: "affa-abedin-saoda",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "কাজের মাঝে রবের খোঁজে",
+                    price: 135,
+                    discountprice: 95,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009588/salahaat/books/2023-02-10/%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%B0_%E0%A6%AE%E0%A6%BE%E0%A6%9D%E0%A7%87_%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%B0_%E0%A6%96%E0%A7%8B%E0%A6%81%E0%A6%9C%E0%A7%87_smejxl.jpg",
+                    slug: "kajer-majhe-rober-khoje",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আফিফা আবেদীন সাওদা",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
             },
           },
         },
