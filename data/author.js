@@ -484,6 +484,203 @@ export const auhtor = {
             },
           },
         },
+        {
+          id: "11",
+          attributes: {
+            name: "আরিফুল ইসলাম",
+            slug: "ariful-islam",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "আর্গুমেন্টস অব আরজু",
+                    price: 250,
+                    discountprice: 175,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009590/salahaat/books/2023-02-10/%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%97%E0%A7%81%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%B8_%E0%A6%85%E0%A6%AC_%E0%A6%86%E0%A6%B0%E0%A6%9C%E0%A7%81_lmjtxi.jpg",
+                    slug: "argument-of-arju",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আরিফুল ইসলাম",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "12",
+          attributes: {
+            name: "বিনতু আদিল",
+            slug: "bintu-adil",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "ফেরা ২",
+                    price: 190,
+                    discountprice: 133,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%BE_%E0%A7%A8_ogjgmw.jpg",
+                    slug: "fera-2",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "বিনতু আদিল",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "13",
+          attributes: {
+            name: "ওমর আল জাবির",
+            slug: "omor-al-jabir",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "পড়ো",
+                    price: 305,
+                    discountprice: 213,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%AA%E0%A7%9C%E0%A7%8B_flamre.jpg",
+                    slug: "poro",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ওমর আল জাবির",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "14",
+          attributes: {
+            name: "শাইখ আলী জাবির আল ফাইফী",
+            slug: "saikh-ali-jabir-al-faifi",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "তিনিই আমার রব",
+                    price: 290,
+                    discountprice: 212,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%87_%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0_%E0%A6%B0%E0%A6%AC_invnia.jpg",
+                    slug: "tiniy-amar-rob",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "শাইখ আলী জাবির আল ফাইফী",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "15",
+          attributes: {
+            name: "আবদুল্লাহ মাহমুদ নজীব",
+            slug: "abdullah-mahmud-nojib",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "তারাফুল",
+                    price: 232,
+                    discountprice: 162,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A7%81%E0%A6%B2_m4cqxf.jpg",
+                    slug: "taraful",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "আবদুল্লাহ মাহমুদ নজীব",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "16",
+          attributes: {
+            name: "ড. হানান লাশিন",
+            slug: "dr-hanan-lashin",
+            imgurl: null,
+            books: {
+              data: [
+                {
+                  attributes: {
+                    name: "জীবন যদি হতো নারী সাহাবীর মত",
+                    price: 186,
+                    discountprice: 130,
+                    imgurl:
+                      "https://res.cloudinary.com/dtw0fbvcn/image/upload/v1676009589/salahaat/books/2023-02-10/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8_%E0%A6%AF%E0%A6%A6%E0%A6%BF_%E0%A6%B9%E0%A6%A4%E0%A7%8B_%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A7%80%E0%A6%B0_%E0%A6%AE%E0%A6%A4_rvbczd.jpg",
+                    slug: "jibon-jodi-hoto-nari-sahabir-moto",
+                    authors: {
+                      data: [
+                        {
+                          attributes: {
+                            name: "ড. হানান লাশিন",
+                          },
+                        },
+                      ],
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        {
+          id: "17",
+          attributes: {
+            name: "ড. আইদ আল কারণী",
+            slug: "dr-aid-al-karoni",
+            imgurl: null,
+            books: {
+              data: [],
+            },
+          },
+        },
       ],
     },
   },
